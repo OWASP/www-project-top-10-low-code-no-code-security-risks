@@ -1,7 +1,7 @@
 ---
 
 layout: col-sidebar
-title: OWASP OWASP Top 10 Low-Code-No-Code Security Risks
+title: OWASP Top 10 Low-Code-No-Code Security Risks
 tags: example-tag
 level: 2
 type: 
