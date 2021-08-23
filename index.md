@@ -1,22 +1,24 @@
 ---
-
 layout: col-sidebar
-title: OWASP Top 10 Low-Code-No-Code Security Risks
-tags: example-tag
-level: 2
-type: 
-pitch: A very brief, one-line description of your project
-
+title: OWASP Top 10 Low-Code/No-Code Security Risks
+site_side: true
+tags: low-code-no-code
+level: 4
+type: documentation
+auto-migrated: 0
+pitch: The primary goal of the "OWASP Top 10 Low-Code/No-Code Security Risks" document provides assistance and education for organizations looking to adopt and develop Low-Code/No-Code applications. The guide provides information about what are the most prominent security risks for such applications, the challenges involved, and how to overcome them.
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+## Overview
+Low-code development platforms provides a development environment used to create application software through a graphical user interface instead of traditional hand-coded computer programming. Low-code development platforms reduce the amount of traditional hand coding, enabling accelerated delivery of business applications. 
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+As Low-Code platforms proliferate and become widely used by organizations, there is a clear and immediate need to create awareness around security and privacy risks related to applications developed on such platforms.
+<br>
+<br>
+The primary goal of the "OWASP Top 10 Low-Code/No-Code Security Risks" document provides assistance and education for organizations looking to adopt and develop Low-Code/No-Code applications. The guide provides information about what are the most prominent security risks for such applications, the challenges involved, and how to overcome them.
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
-
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
-
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 4 - Flagship)
-
-type: code, tool, documentation, or other
+## Getting Involved
+You do not have to be a security expert or a programmer to contribute. Contact the project leader(s) to get involved, we welcome any type of suggestion and comments. Possible ways to contribute:
+ * We are actively looking for organizations and individuals that will provide vulnerability prevalence data
+ * Translation efforts (later stages)
+ * Individuals and organizations that will contribute to the project will be listed on the acknowledgments page.
