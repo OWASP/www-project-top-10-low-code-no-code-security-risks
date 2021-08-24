@@ -14,3 +14,5 @@
 [defenders-logo]: https://raw.githubusercontent.com/OWASP/www--site-theme/master/assets/images/common/owasp_defenders.svg?sanitize=true
 [doc-proj-logo]: https://raw.githubusercontent.com/OWASP/www--site-theme/master/assets/images/common/owasp_documentation_project.svg?sanitize=true
 
+### Slack
+[#low-code-no-code-top10-security-risks](https://owasp.slack.com/archives/C02C6RU6G10)
