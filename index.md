@@ -22,3 +22,9 @@ You do not have to be a security expert or a programmer to contribute. Contact t
  * We are actively looking for organizations and individuals that will provide vulnerability prevalence data
  * Translation efforts (later stages)
  * Individuals and organizations that will contribute to the project will be listed on the acknowledgments page.
+
+## Project Sponsors
+The OWASP Top 10 Low-Code/No-Code Security Risks project is supported by [Zenity](https://zenity.io/)
+<br>
+[![Zenity](assets/images/zenity_logo.png)](https://zenity.io/)
+
