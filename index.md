@@ -26,5 +26,5 @@ You do not have to be a security expert or a programmer to contribute. Contact t
 ## Project Sponsors
 The OWASP Top 10 Low-Code/No-Code Security Risks project is supported by [Zenity](https://zenity.io/)
 <br>
-[![Zenity](assets/images/zenity_logo.png)](https://zenity.io/)
+[![Zenity](assets/images/zenity-new-logo2.png)](https://zenity.io/)
 
