@@ -23,7 +23,9 @@ You do not have to be a security expert or a programmer to contribute. Contact t
  * Translation efforts (later stages)
  * Individuals and organizations that will contribute to the project will be listed on the acknowledgments page.
 
-## The List (Work in Progress!)
+## The List (First Draft)
+
+
 
 ### Risk #1: Privilege Escalation
 To boost innovation, low-code platforms have taken a shortcut to help makers build apps. Apps do not have their own identities, but instead use the identity provided by the maker. A security savvy maker might identify this pitfall and provide a service identity, but unfortunately the vast majority of low-code apps run with personal user credentials. This means that by gaining access to an app, a user gains access to its underlying credentials and in some cases can manipulate and use them however he wishes. This fact makes low-code apps the perfect bed for breaking authorization boundaries. If not careful, users can easily have access to resources they are not authorized to use, and they would access them with another user’s identity. The same mechanism allows attackers to elevate their privileges. Most low-code platforms have some notion of a default environment where connections to data sources are placed by default. These typically contain access to user accounts, cloud services, SaaS services and many more.
@@ -62,7 +64,7 @@ The OWASP Top 10 Low-Code/No-Code Security Risks project is supported by [Zenity
 **The OWASP Low-Code/No-Code Security Project documents are free to use!**
 
 The OWASP Low-Code/No-Code Security Project is licensed under the [Creative Commons
-Attribution-ShareAlike 3.0 license][1], so you can copy, distribute, and
+Attribution-ShareAlike 3.0 license][http://creativecommons.org/licenses/by-sa/3.0/], so you can copy, distribute, and
 transmit the work. You can also adapt it, and use it commercially, as long as
 you attribute the work. If you alter, transform, or build upon this work, you
 may distribute the resulting work only under the same or similar license to this
