@@ -53,7 +53,7 @@ Because low-code apps are usually developed by the organization, users tend to t
 ### Risk #10: TBD
 
 ## Project Sponsors
-The OWASP Top 10 Low-Code/No-Code Security Risks project is supported by [Zenity](https://zenity.io/)
+The OWASP Top 10 Low-Code/No-Code Security Risks project is supported by [Zenity](https://www.zenity.io/)
 <br>
-[![Zenity](assets/images/zenity-new-logo2.png)](https://zenity.io/)
+[![Zenity](assets/images/zenity-new-logo2.png)](https://www.zenity.io/)
 
