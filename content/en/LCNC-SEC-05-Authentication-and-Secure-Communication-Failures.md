@@ -1,4 +1,4 @@
-# LCNC-SEC-XX: TITLE
+# LCNC-SEC-05: Authentication and Secure Communication Failures
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
@@ -8,7 +8,7 @@
 
 ## Description
 
-TBD
+Low-code/no-code applications typically connect to business-critical data. Due to common mistakes or lack of security expertise, connections are often set up insecurely using plaintext protocols or weak credentials.
 
 ## Impact
 

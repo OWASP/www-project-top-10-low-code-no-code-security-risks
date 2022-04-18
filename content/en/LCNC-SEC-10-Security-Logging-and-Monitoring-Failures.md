@@ -1,4 +1,4 @@
-# LCNC-SEC-XX: TITLE
+# LCNC-SEC-10: Security Logging and Monitoring Failures
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
@@ -8,7 +8,9 @@
 
 ## Description
 
-TBD
+TBD: Rewrite description
+Logs are not stored or not granular enough to power an investigation. 
+Separate issue - logs contain actual data passed through the app.
 
 ## Impact
 

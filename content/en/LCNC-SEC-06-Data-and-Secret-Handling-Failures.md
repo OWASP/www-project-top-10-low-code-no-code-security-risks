@@ -1,4 +1,4 @@
-# LCNC-SEC-XX: TITLE
+# LCNC-SEC-06: Data and Secret Handling Failures
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
@@ -8,7 +8,8 @@
 
 ## Description
 
-TBD
+Low-code/no-code applications can store data as part of their "code" or in managed databases offered by the platform. 
+In many cases, sensitive data is stored unencrypted, data is moved between geolocations without regulatory requirements in mind and secrets are hard-coded as plaintext.
 
 ## Impact
 

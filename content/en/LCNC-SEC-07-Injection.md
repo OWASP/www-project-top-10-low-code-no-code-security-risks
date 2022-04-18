@@ -1,4 +1,4 @@
-# LCNC-SEC-XX: TITLE
+# LCNC-SEC-07: Injection
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
@@ -8,7 +8,8 @@
 
 ## Description
 
-TBD
+Low-code/no-code applications can ingest user-controlled data in multiple ways, including direct input, triggering or retrieving user-generated content. 
+Since apps are often query a database based on user content, the risk of injection-based attacks is big.
 
 ## Impact
 

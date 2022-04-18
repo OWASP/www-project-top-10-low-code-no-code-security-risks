@@ -1,4 +1,4 @@
-# LCNC-SEC-XX: TITLE
+# LCNC-SEC-04: Broken Access Control
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
@@ -9,6 +9,8 @@
 ## Description
 
 TBD
+Instances where public endpoints expose data / operations. 
+For example app database exposed or flow trigger available for all.
 
 ## Impact
 

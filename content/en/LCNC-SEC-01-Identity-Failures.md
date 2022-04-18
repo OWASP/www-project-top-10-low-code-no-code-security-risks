@@ -1,4 +1,4 @@
-# LCNC-SEC-XX: TITLE
+# LCNC-SEC-01: Identity Failures
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
@@ -8,7 +8,8 @@
 
 ## Description
 
-TBD
+Low-code/no-code applications can be embedded with user identities which are used implicitly by any application user. 
+This creates a direct path towards Privilege Escalation, and also allows an attacker to hide behind another user's identity.
 
 ## Impact
 

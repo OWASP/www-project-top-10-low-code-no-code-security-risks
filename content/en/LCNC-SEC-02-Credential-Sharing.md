@@ -1,4 +1,4 @@
-# LCNC-SEC-XX: TITLE
+# LCNC-SEC-02: Credential Sharing
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
@@ -8,7 +8,7 @@
 
 ## Description
 
-TBD
+Service connections are first class citizens in most low-code/no-code platforms, which means they can be shared between applications, with other users or become stale.
 
 ## Impact
 
