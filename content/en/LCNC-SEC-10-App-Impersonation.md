@@ -21,6 +21,8 @@ TBD
 
 ## Example Attack Scenarios
 
+Users trust low code apps by default
+
 ### Scenario #1
 
 TBD

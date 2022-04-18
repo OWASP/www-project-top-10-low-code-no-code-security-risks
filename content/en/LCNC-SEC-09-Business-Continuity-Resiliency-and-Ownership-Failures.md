@@ -22,6 +22,8 @@ TBD
 
 ## Example Attack Scenarios
 
+Maker has left the org or forgot about the app, but since its run by a SaaS provider it is still there.
+
 ### Scenario #1
 
 TBD

@@ -21,6 +21,9 @@ TBD
 
 ## Example Attack Scenarios
 
+Application is embedded with maker credentials, which is implicitly used by any app user
+Application uses a mixture of business / personal / vendor identities
+
 ### Scenario #1
 
 TBD

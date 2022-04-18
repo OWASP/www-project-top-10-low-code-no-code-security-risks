@@ -21,6 +21,10 @@ TBD
 
 ## Example Attack Scenarios
 
+Turn on audit logs
+RBAC
+Power Platform requireUserConsent flag
+
 ### Scenario #1
 
 TBD

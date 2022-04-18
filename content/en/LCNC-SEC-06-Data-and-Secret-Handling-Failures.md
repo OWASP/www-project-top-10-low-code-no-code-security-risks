@@ -21,6 +21,9 @@ TBD
 
 ## Example Attack Scenarios
 
+Sensitive data stored unencrypted (e.g. credit card)
+Data moved between GEOs in a non-compliant way
+
 ### Scenario #1
 
 TBD
