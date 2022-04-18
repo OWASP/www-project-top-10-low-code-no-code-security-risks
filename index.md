@@ -23,17 +23,17 @@ The guide provides information about what are the most prominent security risks 
 
 1. [LCNC-SEC-01: Identity Failures](content/en/LCNC-SEC-01-Identity-Failures.md)
 2. [LCNC-SEC-02: Credential Sharing](content/en/LCNC-SEC-02-Credential-Sharing.md)
-3. [Data Leakage and Unexpected Consequences](content/en/LCNC-SEC-03-Data-Leakage-and-Unexpected-Consequences.md)
-4. [Broken Access Control](content/en/LCNC-SEC-04-Broken-Access-Control.md)
-5. [Authentication and Secure Communication Failures](content/en/LCNC-SEC-05-Authentication-and-Secure-Communication-Failures.md)
-6. [Data and Secret Handling Failures](content/en/LCNC-SEC-06-Data-and-Secret-Handling-Failures.md)
-7. [Injection](content/en/LCNC-SEC-07-Injection.md)
-8. [Vulnerable and Untrusted Supply Chain](content/en/LCNC-SEC-08-Vulnerable-and-Untrusted-Supply-Chain.md)
-9. [Business Continuity, Resiliency and Ownership Failures](content/en/LCNC-SEC-09-Business-Continuity-Resiliency-and-Ownership-Failures.md)
-10. [Security Misconfiguration](content/en/LCNC-SEC-10-Security-Misconfiguration.md)
-11. [Security Logging and Monitoring Failures](content/en/LCNC-SEC-10-Security-Logging-and-Monitoring-Failures.md)
-12. [App Impersonation](content/en/LCNC-SEC-10-App-Impersonation.md)
-13. [Unmanaged Custom Code](content/en/LCNC-SEC-10-Unmanaged-Custom-Code.md)
+3. [LCNC-SEC-03: Data Leakage and Unexpected Consequences](content/en/LCNC-SEC-03-Data-Leakage-and-Unexpected-Consequences.md)
+4. [LCNC-SEC-04: Broken Access Control](content/en/LCNC-SEC-04-Broken-Access-Control.md)
+5. [LCNC-SEC-05: Authentication and Secure Communication Failures](content/en/LCNC-SEC-05-Authentication-and-Secure-Communication-Failures.md)
+6. [LCNC-SEC-06: Data and Secret Handling Failures](content/en/LCNC-SEC-06-Data-and-Secret-Handling-Failures.md)
+7. [LCNC-SEC-07: Injection](content/en/LCNC-SEC-07-Injection.md)
+8. [LCNC-SEC-08: Vulnerable and Untrusted Supply Chain](content/en/LCNC-SEC-08-Vulnerable-and-Untrusted-Supply-Chain.md)
+9. [LCNC-SEC-09: Business Continuity, Resiliency and Ownership Failures](content/en/LCNC-SEC-09-Business-Continuity-Resiliency-and-Ownership-Failures.md)
+10. [LCNC-SEC-10: Security Misconfiguration](content/en/LCNC-SEC-10-Security-Misconfiguration.md)
+11. [LCNC-SEC-10: Security Logging and Monitoring Failures](content/en/LCNC-SEC-10-Security-Logging-and-Monitoring-Failures.md)
+12. [LCNC-SEC-10: App Impersonation](content/en/LCNC-SEC-10-App-Impersonation.md)
+13. [LCNC-SEC-10: Unmanaged Custom Code](content/en/LCNC-SEC-10-Unmanaged-Custom-Code.md)
 
 ## Getting Involved
 You do not have to be a security expert or a programmer to contribute. 
