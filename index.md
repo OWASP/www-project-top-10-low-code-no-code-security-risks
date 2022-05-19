@@ -19,6 +19,7 @@ As Low-Code/No-Code platforms proliferate and become widely used by organization
 The primary goal of the "OWASP Top 10 Low-Code/No-Code Security Risks" document is to provide assistance and education for organizations looking to adopt and develop Low-Code/No-Code applications. 
 The guide provides information about what are the most prominent security risks for such applications, the challenges involved, and how to overcome them.
 
+
 ## The List (First Draft)
 
 ### Risk #1: Privilege Escalation
@@ -34,7 +35,6 @@ Low-code apps usually revolve around streamlining a business process or automati
 To enable fast expansion within the enterprise, low-code platforms make sharing of apps, components and data extremely easy. You can share a connection to a data source, an application, automation, on-prem connection and many more. Sharing with the entire organization may sometimes even be a platform default. Oversharing can easily result in breaking the enterprise permission model.
 
 ### Risk #5: Data and Secret Handling Failures
-
 Low-code/no-code applications typically connect to business-critical data. 
 Due to common mistakes or lack of security expertise, connections are often set up insecurely using plaintext protocols or weak credentials.
 
@@ -42,7 +42,6 @@ Due to common mistakes or lack of security expertise, connections are often set 
 Low-code platforms provide a wide range of features, some of which control the balance between security and support of specific use cases. For example, Portal Apps by Power Platform allow creating self-service portals for unauthenticated users. However, misconfiguration of those apps could lead to these users having full access to data sources that underlie this app.
 
 ### Risk #7: Business Continuity, Resiliency and Ownership Failures
-
 Low-code/no-code application are prone to be abandoned while remaining active. 
 The ease of creating a new applications, their relatively low-maintenance costs and the fact that they often are managed by a SaaS services are all contributing factors. 
 This means that the number of active applications in an organization tends to go up drastically, and that popular business applications can often find themselves without an owner.
@@ -54,7 +53,6 @@ Because low-code apps are usually developed by the organization, users tend to t
 Low-code apps have grown to serve critical business needs, and thus they must be scalable and support many use cases. In order to do that while still being easy and intuitive to use, low-code apps rely heavily on a marketplace ecosystem where the platform and its users can share components, connectors and even ready-to-use apps with each other. This is very similar in nature to OSS (open source software) being used when building business applications with pro code. The security community has made huge strides in addressing the OSS dependency security concern, but unfortunately, these solutions do not cover low-code security vulnerabilities. Low-code platforms allow makers to use marketplace components from any source, including sources outside of the marketplace! This could easily lead to attackers gaining access to and manipulating the application, it’s underlying credentials and those of every user that connects to the application.
 
 ### Risk #10: Unmanaged Custom Code
-
 Low-code/no-code applications often enable extendability through custom code. 
 These pieces of code are embedded into the application, and in some cases are not held up to the same level of security vigilance as with other pro-code applications. 
 
@@ -65,6 +63,7 @@ Contact the project leader(s) to get involved, we welcome any type of suggestion
  * We are actively looking for organizations and individuals that will provide vulnerability prevalence data
  * Translation efforts (later stages)
  * Individuals and organizations that will contribute to the project will be listed on the acknowledgments page
+
 
 ## Project Sponsors
 The OWASP Top 10 Low-Code/No-Code Security Risks project is supported by [Zenity](https://www.zenity.io/)
