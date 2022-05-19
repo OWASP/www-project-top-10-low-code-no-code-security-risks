@@ -1,4 +1,4 @@
-# LCNC-SEC-09: Business Continuity, Resiliency and Ownership Failures
+# LCNC-SEC-09: Asset Management Failures
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
@@ -7,6 +7,8 @@
 | 3 | 3 | 3 | 3 |
 
 ## Description
+
+Business Continuity, Resiliency and Ownership Failures
 
 Low-code/no-code application are prone to be abandoned while remaining active. 
 The ease of creating a new applications, their relatively low-maintenance costs and the fact that they often are managed by a SaaS services are all contributing factors. 

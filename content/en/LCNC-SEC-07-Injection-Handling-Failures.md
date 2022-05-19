@@ -1,4 +1,4 @@
-# LCNC-SEC-07: Injection
+# LCNC-SEC-07: Injection Handling Failures
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
