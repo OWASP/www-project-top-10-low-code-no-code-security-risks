@@ -1,4 +1,4 @@
-# LCNC-SEC-08: Data and Secret Handling Failures
+# LCNC-SEC-08: Data Handling Failures
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 

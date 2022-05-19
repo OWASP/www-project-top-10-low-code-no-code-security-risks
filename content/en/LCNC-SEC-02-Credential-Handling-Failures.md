@@ -1,4 +1,4 @@
-# LCNC-SEC-02: Credential Sharing
+# LCNC-SEC-02: Credential Handling Failures
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 

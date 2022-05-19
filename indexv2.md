@@ -22,13 +22,13 @@ The guide provides information about what are the most prominent security risks 
 ## The List
 
 1. [LCNC-SEC-01: Identity Failures](content/en/LCNC-SEC-01-Identity-Failures.md)
-2. [LCNC-SEC-02: Credential Sharing](content/en/LCNC-SEC-02-Credential-Sharing.md)
+2. [LCNC-SEC-02: Credential Sharing](content/en/LCNC-SEC-02-Credential-Handling-Failures.md)
 3. [LCNC-SEC-03: Data Leakage and Unexpected Consequences](content/en/LCNC-SEC-03-Data-Leakage-and-Unexpected-Consequences.md)
 4. [LCNC-SEC-05: Authentication and Secure Communication Failures](content/en/LCNC-SEC-04-Authentication-and-Secure-Communication-Failures.md)
 5. [LCNC-SEC-10: Security Misconfiguration](content/en/LCNC-SEC-05-Security-Misconfiguration.md)
 6. [LCNC-SEC-07: Injection Handling Failures](content/en/LCNC-SEC-06-Injection-Handling-Failures.md)
 7. [LCNC-SEC-08: Vulnerable and Untrusted Third Party Components](content/en/LCNC-SEC-07-Vulnerable-and-Untrusted-Third-Party-Components.md)
-8. [LCNC-SEC-06: Data and Secret Handling Failures](content/en/LCNC-SEC-08-Data-and-Secret-Handling-Failures.md)
+8. [LCNC-SEC-06: Data and Secret Handling Failures](content/en/LCNC-SEC-08-Data-Handling-Failures.md)
 9. [LCNC-SEC-09: Asset Management Failures](content/en/LCNC-SEC-09-Asset-Management-Failures.md)
 10. [LCNC-SEC-10: Security Logging and Monitoring Failures](content/en/LCNC-SEC-10-Security-Logging-and-Monitoring-Failures.md)
 
