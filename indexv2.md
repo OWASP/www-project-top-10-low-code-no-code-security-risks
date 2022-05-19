@@ -31,7 +31,6 @@ The guide provides information about what are the most prominent security risks 
 9. [LCNC-SEC-09: Asset Management Failures](content/en/LCNC-SEC-09-Asset-Management-Failures.md)
 10. [LCNC-SEC-10: Security Misconfiguration](content/en/LCNC-SEC-10-Security-Misconfiguration.md)
 11. [LCNC-SEC-10: Security Logging and Monitoring Failures](content/en/LCNC-SEC-10-Security-Logging-and-Monitoring-Failures.md)
-12. [LCNC-SEC-10: App Impersonation](content/en/LCNC-SEC-10-App-Impersonation.md)
 
 ## Getting Involved
 You do not have to be a security expert or a programmer to contribute. 
