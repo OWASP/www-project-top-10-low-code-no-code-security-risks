@@ -2,7 +2,7 @@
 layout: col-sidebar
 title: OWASP Top 10 Low-Code/No-Code Security Risks
 site_side: true
-tags: low-code-no-code
+tags: low-code no-code
 level: 2
 type: documentation
 auto-migrated: 0
