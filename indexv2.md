@@ -21,7 +21,7 @@ The guide provides information about what are the most prominent security risks 
 
 ## The List
 
-1. [LCNC-SEC-01: Identity Failures](content/en/LCNC-SEC-01-Identity-Failures.md)
+1. [LCNC-SEC-01: Identity Misuse](content/en/LCNC-SEC-01-Identity-Misuse.md)
 2. [LCNC-SEC-02: Credential Sharing](content/en/LCNC-SEC-02-Credential-Handling-Failures.md)
 3. [LCNC-SEC-03: Data Leakage and Unexpected Consequences](content/en/LCNC-SEC-03-Data-Leakage-and-Unexpected-Consequences.md)
 4. [LCNC-SEC-05: Authentication and Secure Communication Failures](content/en/LCNC-SEC-04-Authentication-and-Secure-Communication-Failures.md)

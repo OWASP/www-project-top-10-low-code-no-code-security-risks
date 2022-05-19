@@ -1,4 +1,4 @@
-# LCNC-SEC-01: Identity Failures
+# LCNC-SEC-01: Identity Misuse
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
