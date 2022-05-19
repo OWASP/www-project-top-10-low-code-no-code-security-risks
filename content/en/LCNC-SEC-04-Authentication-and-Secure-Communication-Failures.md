@@ -1,4 +1,4 @@
-# LCNC-SEC-05: Authentication and Secure Communication Failures
+# LCNC-SEC-04: Authentication and Secure Communication Failures
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 

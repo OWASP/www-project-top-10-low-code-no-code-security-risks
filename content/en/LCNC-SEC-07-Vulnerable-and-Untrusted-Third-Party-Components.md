@@ -1,4 +1,4 @@
-# LCNC-SEC-08: Vulnerable and Untrusted Third Party Components
+# LCNC-SEC-07: Vulnerable and Untrusted Third Party Components
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
