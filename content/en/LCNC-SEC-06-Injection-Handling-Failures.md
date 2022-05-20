@@ -8,10 +8,13 @@
 
 ## The Gist
 
+No-code/low-code applications ingest user-generated data in multiple ways, including direct input or retrieving user-generated content from various services.
+
 ## Description
 
-No-code/low-code applications can ingest user-controlled data in multiple ways, including direct input, triggering or retrieving user-generated content. 
-Since apps are often query a database based on user content, the risk of injection-based attacks is big.
+No-code/low-code applications ingest user-generated data in multiple ways, including direct input or retrieving user-generated content from various services.
+Since applications often query data dynamically based on user input, they are exposed to a significant risk of injection-based attacks.
+Moreover, since applications can use user-generated content in various ways including querying a database, parsing a document and more, protection from injection-based attacks must take into account the specific applications and its use of user data. 
 
 ## Impact
 
