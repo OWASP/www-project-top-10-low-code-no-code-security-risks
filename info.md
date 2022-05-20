@@ -17,8 +17,9 @@
 ### Social and Community
 
 [Twitter](https://twitter.com/OWASPNoCode)
+
 [Slack](https://owasp.slack.com/archives/C02C6RU6G10)
 
 ### Licensing
 
-[LICENSE](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/license.md)
+[License](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/license.md)
