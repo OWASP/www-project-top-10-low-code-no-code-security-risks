@@ -6,15 +6,24 @@
 | --- | --- | --- | --- |
 | TBD | TBD | TBD | TBD |
 
+## The Gist
+
+No-code/Low-code applications can be embedded with user identities which are used implicitly by any application user. 
+This creates a direct path towards Privilege Escalation, allows an attacker to hide behind another user's identity, and circumvents traditional security controls.
+
 ## Description
 
-Low-code/no-code applications can be embedded with user identities which are used implicitly by any application user. 
-This creates a direct path towards Privilege Escalation, and also allows an attacker to hide behind another user's identity.
+No-code/low-code applications can take advantage of existing user identity rather than having their own application identity.
+Embedded identities can be that of the application creator, or a common identity shared by teams such as credentials to a database.
 
-App Impersonation
+The lack of application identity results an application being transparent to any enforcing or monitoring systems outside the no-code/low-code platform.
+As an outside viewer, any user that uses the application is impersonating the application creator.
+There is no way to distinguish the application and its creator.
+The problem becomes even more acute when applications use multiple identities to operate on multiple different platforms.
+One user could be used to store files on a file sharing SaaS, another to retrieve on-prem data.
 
-Since low-code/no-code application are often internal business applications, users tend to trust them blindly. 
-Attackers can take advantage of this fact to take over accounts and move laterally in an organization by staging seemingly-benign applications to gain access on behalf of users.
+Furthermore, identities are embedded within the application, and that application can be used by multiple users.
+This creates a direct path to privilege escalation, where application users can gain access they should not have.
 
 ## Impact
 
@@ -27,6 +36,7 @@ TBD
 ## Example Attack Scenarios
 
 Application is embedded with maker credentials, which is implicitly used by any app user
+
 Application uses a mixture of business / personal / vendor identities
 
 App Impersonation
