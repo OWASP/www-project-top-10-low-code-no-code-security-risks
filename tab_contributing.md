@@ -22,4 +22,4 @@ How to reach out:
 - [Support us on Twitter](https://twitter.com/OWASPNoCode)
 - Contact the [project leaders](mailto:michaelb@zenity.io)
 
-Individuals and organizations that will contribute to the project will be listed on the acknowledgments page
+Individuals and organizations that provide a significant contribution to the project will be listed on the acknowledgments page.
