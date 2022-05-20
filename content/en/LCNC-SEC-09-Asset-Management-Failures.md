@@ -12,7 +12,7 @@
 
 Business Continuity, Resiliency and Ownership Failures
 
-Low-code/no-code application are prone to be abandoned while remaining active. 
+No-code/low-code application are prone to be abandoned while remaining active. 
 The ease of creating a new applications, their relatively low-maintenance costs and the fact that they often are managed by a SaaS services are all contributing factors. 
 This means that the number of active applications in an organization tends to go up drastically, and that popular business applications can often find themselves without an owner.
 

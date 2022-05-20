@@ -10,7 +10,7 @@
 
 ## Description
 
-Low-code/no-code applications can store data as part of their "code" or in managed databases offered by the platform. 
+No-code/low-code applications can store data as part of their "code" or in managed databases offered by the platform. 
 In many cases, sensitive data is stored unencrypted, data is moved between geolocations without regulatory requirements in mind and secrets are hard-coded as plaintext.
 
 ## Impact

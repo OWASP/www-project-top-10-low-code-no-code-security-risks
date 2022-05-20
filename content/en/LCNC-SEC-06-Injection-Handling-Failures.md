@@ -10,7 +10,7 @@
 
 ## Description
 
-Low-code/no-code applications can ingest user-controlled data in multiple ways, including direct input, triggering or retrieving user-generated content. 
+No-code/low-code applications can ingest user-controlled data in multiple ways, including direct input, triggering or retrieving user-generated content. 
 Since apps are often query a database based on user content, the risk of injection-based attacks is big.
 
 ## Impact
