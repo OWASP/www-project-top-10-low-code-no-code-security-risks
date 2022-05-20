@@ -20,6 +20,8 @@
 
 [Slack](https://owasp.slack.com/archives/C02C6RU6G10)
 
+[Email group](https://groups.google.com/g/owasp-no-code-low-code)
+
 ### Licensing
 
 [License](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/license.md)

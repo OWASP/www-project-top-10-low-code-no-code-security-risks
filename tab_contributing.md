@@ -21,6 +21,7 @@ How to reach out:
 - [Send us a pull request](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/pulls)
 - [Give us feedback / suggestions / report bugs](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/issues)
 - Talk to us on [Slack](https://owasp.slack.com/archives/C02C6RU6G10) (#low-code-no-code-top10-security-risks)
+- Join our [email group](https://groups.google.com/g/owasp-no-code-low-code)
 - [Support us on Twitter](https://twitter.com/OWASPNoCode)
 - Contact the [project leaders](mailto:michaelb@zenity.io)
 
