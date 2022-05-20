@@ -8,11 +8,16 @@
 
 ## The Gist
 
+No-code/low-code applications often lack a comprehensive audit trail, produce none or insufficient logs, and fail to clear logs from sensitive data.
+
 ## Description
 
-TBD: Rewrite description
-Logs are not stored or not granular enough to power an investigation. 
-Separate issue - logs contain actual data passed through the app.
+No-code/low-code applications often rely on vendors to generate logs and monitors.
+In many cases, logs are either insufficient or not being collected, impeding security investigations and failing to satisfy compliance requirements.
+Applications often lack a comprehensive audit trail, preventing change management processes and inquires.
+
+Furthermore, many native log streams mix between application logs, metrics and sensitive data being passed through the application.
+On many platforms and by default, logs will contain actual data points used by the application.
 
 ## Impact
 
