@@ -27,8 +27,9 @@ TBD
 
 ## Example Attack Scenarios
 
-Use of plaintext protocols (i.e. HTTP, FTP)
-Diverging from best practice (e.g. no validation of certificate, hard-coded secret)
+Ideas to explore (TBD):
+- Use of plaintext protocols (i.e. HTTP, FTP)
+- Diverging from best practice (e.g. no validation of certificate, hard-coded secret)
 
 ### Scenario #1
 

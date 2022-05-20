@@ -30,9 +30,10 @@ TBD
 
 ## Example Attack Scenarios
 
-Log4J through marketplace components
-Custom connectors or custom code
-Using Open Source components with no review
+Ideas to explore (TBD):
+- Log4J through marketplace components
+- Custom connectors or custom code
+- Using Open Source components with no review
 
 ### Scenario #1
 

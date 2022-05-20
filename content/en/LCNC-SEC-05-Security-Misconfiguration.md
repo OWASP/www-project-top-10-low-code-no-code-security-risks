@@ -26,14 +26,13 @@ TBD
 
 ## Example Attack Scenarios
 
-Turn on audit logs
-RBAC
-Power Platform requireUserConsent flag
-
-broken access control
-
-Automation trigger is available to anonymous users
-Managed database is exposed to anonymous users (Power Platform data leak)
+Ideas to explore (TBD):
+- Turn on audit logs
+- RBAC
+- Power Platform requireUserConsent flag
+- broken access control
+  - Automation trigger is available to anonymous users
+  - Managed database is exposed to anonymous users (Power Platform data leak)
 
 ### Scenario #1
 
