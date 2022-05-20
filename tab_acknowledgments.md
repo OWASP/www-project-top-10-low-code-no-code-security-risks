@@ -1,6 +1,6 @@
 ---
-title: Acknowledgments
 layout:  null
+title: Acknowledgments
 tab: true
 order: 1
 tags: acknowledgments
