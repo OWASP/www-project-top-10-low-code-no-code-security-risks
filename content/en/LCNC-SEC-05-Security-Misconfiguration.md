@@ -45,4 +45,4 @@ TBD
 
 ## References
 
-TBD
+- [By Design: How Default Permissions on Microsoft Power Apps Exposed Millions](https://www.upguard.com/breaches/power-apps)
