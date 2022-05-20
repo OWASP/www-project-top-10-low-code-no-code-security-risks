@@ -6,6 +6,8 @@
 | --- | --- | --- | --- |
 | TBD | TBD | TBD | TBD |
 
+## The Gist
+
 ## Description
 
 Business Continuity, Resiliency and Ownership Failures

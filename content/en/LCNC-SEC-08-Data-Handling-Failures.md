@@ -6,6 +6,8 @@
 | --- | --- | --- | --- |
 | TBD | TBD | TBD | TBD |
 
+## The Gist
+
 ## Description
 
 Low-code/no-code applications can store data as part of their "code" or in managed databases offered by the platform. 

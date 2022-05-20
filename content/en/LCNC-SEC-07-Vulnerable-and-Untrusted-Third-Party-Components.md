@@ -6,6 +6,8 @@
 | --- | --- | --- | --- |
 | TBD | TBD | TBD | TBD |
 
+## The Gist
+
 ## Description
 
 Low-code/no-code applications heavily rely on ready-made components out of the marketplace or the web, including data connectors, widgets and sub-services. 

@@ -6,6 +6,8 @@
 | --- | --- | --- | --- |
 | TBD | TBD | TBD | TBD |
 
+## The Gist
+
 ## Description
 
 Low-code/no-code applications can ingest user-controlled data in multiple ways, including direct input, triggering or retrieving user-generated content. 
