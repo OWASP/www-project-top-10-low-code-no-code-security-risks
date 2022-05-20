@@ -6,9 +6,16 @@
 | --- | --- | --- | --- |
 | TBD | TBD | TBD | TBD |
 
+## The Gist
+
+No-code/low-code applications typically connect to business-critical data via connections set up by business users, which can often result in insecure communication.
+
 ## Description
 
-Low-code/no-code applications typically connect to business-critical data. Due to common mistakes or lack of security expertise, connections are often set up insecurely using plaintext protocols or weak credentials.
+No-code/low-code applications typically connect to business-critical data across on-prem, Saas, PaaS and cloud.
+Applications use built-in connectors, which allow easy connections to various services.
+Connections offer a variety of security configuration, including communication protocols, authentication flows and types of credentials used.
+In many cases, connections are set up by business users, which can often result in deviation from best practice.
 
 ## Impact
 
