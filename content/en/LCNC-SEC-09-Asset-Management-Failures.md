@@ -4,7 +4,7 @@
 
 | Prevalence | Detectability | Exploitability | Technical Impact |
 | --- | --- | --- | --- |
-| 3 | 3 | 3 | 3 |
+| TBD | TBD | TBD | TBD |
 
 ## Description
 
