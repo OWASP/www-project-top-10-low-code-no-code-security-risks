@@ -6,15 +6,15 @@
 | --- | --- | --- | --- |
 | TBD | TBD | TBD | TBD |
 
+## The Gist
+
+Misconfigurations can often result in anonymous user access to sensitive data or operations, unprotected public endpoints, unprotected secrets and oversharing.
+
 ## Description
 
-Low-code/no-code platforms provide a wide range of features, some of which control the balance between security and support of specific use cases. 
-Misconfigurations can often result in anonymous user access to sensitive data or operations, sensitive data leaking to logs, unprotected secrets and oversharing.
-
-broken access control
-
-Instances where public endpoints expose data / operations. 
-For example app database exposed or flow trigger available for all.
+No-code/low-code platforms provide a wide range of features, some of which control the balance between security and support of specific use cases. 
+Misconfigurations can often result in anonymous user access to sensitive data or operations, unprotected public endpoints, unprotected secrets and oversharing.
+Furthermore, many configurations are set on the application-level rather than the tenant-level, which means that they can be set by business users rather than admins.
 
 ## Impact
 
