@@ -8,7 +8,7 @@ tags: acknowledgments
 
 ## Contributors
 
-| Name | Affiliation | Contact | 
+| Name | Affiliation | Contact |
 | --- | --- | --- |
 | Michael Bargury | Zenity | [Twitter](https://twitter.com/mbrg0) [LinkedIn](https://www.linkedin.com/in/michaelbargury/) |
 | Ory Segal | Palo Alto Networks | [Twitter](https://twitter.com/orysegal) [LinkedIn](https://www.linkedin.com/in/orysegal/) |
