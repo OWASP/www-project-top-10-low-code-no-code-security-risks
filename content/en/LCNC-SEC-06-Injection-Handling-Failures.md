@@ -26,7 +26,8 @@ TBD
 
 ## Example Attack Scenarios
 
-Improper input sanitation. Automations connecting various user inputs right into DBs. Very similar to the injection risk for Serverless Security.
+Ideas to explore (TBD):
+- Improper input sanitation. Automations connecting various user inputs right into DBs. Very similar to the injection risk for Serverless Security.
 
 ### Scenario #1
 

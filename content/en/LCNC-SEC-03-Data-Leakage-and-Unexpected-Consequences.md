@@ -27,9 +27,10 @@ TBD
 
 ## Example Attack Scenarios
 
-Email forwarding
-Shadow vendors - data moving outside the org boundary
-Several hidden automations chain together two seemingly unrelated systems
+Ideas to explore (TBD):
+- Email forwarding
+- Shadow vendors - data moving outside the org boundary
+- Several hidden automations chain together two seemingly unrelated systems
 
 ### Scenario #1
 
