@@ -1,10 +1,12 @@
 ---
 title: Getting Involved
-layout:  null
+layout:  col-sidebar
 tab: true
-order: 1
+order: 2
 tags: contributing
 ---
+
+## Contributing
 
 Involvement in the development and promotion of OWASP Top 10 Low-Code/No-Code Security Risks is actively encouraged!
 You do not have to be a security expert in order to contribute. 
