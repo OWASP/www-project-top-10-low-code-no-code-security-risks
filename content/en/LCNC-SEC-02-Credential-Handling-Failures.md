@@ -48,4 +48,4 @@ TBD
 
 ## References
 
-- [Why Are Low-Code Platforms Becoming the New Holy Grail of Hackers?](https://www.zenity.io/blog/why-are-low-code-platforms-becoming-the-new-holy-grail-of-cyberattackers/)
+- [Low-Code Platforms Becoming the New Holy Grail for Hackers](https://www.zenity.io/blog/why-are-low-code-platforms-becoming-the-new-holy-grail-of-cyberattackers/)
