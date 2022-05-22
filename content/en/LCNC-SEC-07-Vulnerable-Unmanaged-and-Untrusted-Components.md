@@ -45,4 +45,4 @@ TBD
 
 ## References
 
-TBD
+- [CVE-2021-44228: Incident Report for Mendix Technology B.V.](https://status.mendix.com/incidents/8j5043my610c)
