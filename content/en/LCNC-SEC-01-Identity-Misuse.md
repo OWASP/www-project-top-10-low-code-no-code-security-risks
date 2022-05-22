@@ -4,7 +4,7 @@
 
 | Prevalence | Detectability | Exploitability | Technical Impact |
 | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD |
+| 3 | 2 | 3 | 3 |
 
 ## The Gist
 
@@ -24,10 +24,6 @@ One user could be used to store files on a file sharing SaaS, another to retriev
 
 Furthermore, identities are embedded within the application, and that application can be used by multiple users.
 This creates a direct path to privilege escalation, where application users can gain access they should not have.
-
-## Impact
-
-TBD
 
 ## Example Attack Scenarios
 
@@ -52,4 +48,4 @@ TBD
 
 ## References
 
-TBD
+- [Why So Many Security Experts Are Concerned About Low-Code/No-Code Apps](https://www.darkreading.com/dr-tech/why-so-many-security-experts-are-concerned-about-low-code-no-code-apps)

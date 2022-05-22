@@ -4,7 +4,7 @@
 
 | Prevalence | Detectability | Exploitability | Technical Impact |
 | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD |
+| 2 | 3 | 2 | 2 |
 
 ## The Gist
 
@@ -17,9 +17,6 @@ Applications use built-in connectors, which allow easy connections to various se
 Connections offer a variety of security configuration, including communication protocols, authentication flows and types of credentials used.
 In many cases, connections are set up by business users, which can often result in deviation from best practice.
 
-## Impact
-
-TBD
 
 ## Example Attack Scenarios
 
@@ -43,4 +40,4 @@ TBD
 
 ## References
 
-TBD
+- [The CISO View: Protecting Privileged Access in RPA](https://www.cyberark.com/resources/blog/ciso-view-insights-securely-scaling-rpa-initiatives)

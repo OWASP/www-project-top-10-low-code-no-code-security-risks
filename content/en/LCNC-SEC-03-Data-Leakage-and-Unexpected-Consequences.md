@@ -4,7 +4,7 @@
 
 | Prevalence | Detectability | Exploitability | Technical Impact |
 | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD |
+| 3 | 2 | 3 | 3 |
 
 ## The Gist
 
@@ -16,10 +16,6 @@ No-code/low-code applications are often used to sync data between multiple syste
 As data movers, no-code/low-code applications can easily cause data leakage by moving data outside the organizational boundary, to another organization or to a personal account.
 As operation triggers, no-code/low-code applications can result in unexpected consequences by implicitly coupling an operation one with system with a change on another.
 Furthermore, multiple applications can be connected to and triggered by a single data source, resulting in chained data movement or operation triggers which are difficult to predict or fully map.
-
-## Impact
-
-TBD
 
 ## Example Attack Scenarios
 

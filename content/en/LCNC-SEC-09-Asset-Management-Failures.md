@@ -4,7 +4,7 @@
 
 | Prevalence | Detectability | Exploitability | Technical Impact |
 | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD |
+| 3 | 2 | 3 | 2 |
 
 ## The Gist
 
@@ -19,10 +19,6 @@ This means that the number of active applications in an organization tends to go
 
 Furthermore, the viral nature of useful internal business applications within large organizations can result in applications developed by a single business user being relied on by many users throughout the organization.
 No-code/low-code applications can lack business continuity measures expected from important business applications, for example having multiple owners, being monitored by IT or offering an SLA.
-
-## Impact
-
-TBD
 
 ## Example Attack Scenarios
 

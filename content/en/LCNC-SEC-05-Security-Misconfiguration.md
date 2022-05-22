@@ -4,7 +4,7 @@
 
 | Prevalence | Detectability | Exploitability | Technical Impact |
 | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD |
+| 3 | 2 | 3 | 3 |
 
 ## The Gist
 
@@ -15,10 +15,6 @@ Misconfigurations can often result in anonymous user access to sensitive data or
 No-code/low-code platforms provide a wide range of features, some of which control the balance between security and support of specific use cases. 
 Misconfigurations can often result in anonymous user access to sensitive data or operations, unprotected public endpoints, unprotected secrets and oversharing.
 Furthermore, many configurations are set on the application-level rather than the tenant-level, which means that they can be set by business users rather than admins.
-
-## Impact
-
-TBD
 
 ## Example Attack Scenarios
 

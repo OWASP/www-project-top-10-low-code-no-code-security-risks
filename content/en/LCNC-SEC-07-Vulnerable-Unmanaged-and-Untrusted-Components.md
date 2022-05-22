@@ -4,7 +4,7 @@
 
 | Prevalence | Detectability | Exploitability | Technical Impact |
 | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD |
+| 2 | 2 | 2 | 2 |
 
 ## The Gist
 
@@ -19,10 +19,6 @@ Third-party components and applications are often a target for attackers who wis
 
 Moreover, no-code/low-code applications often enable extendability through custom code. 
 These pieces of code are embedded into the application, and in some cases are not held up to the same level of security vigilance as with other pro-code applications. 
-
-## Impact
-
-TBD
 
 ## Example Attack Scenarios
 

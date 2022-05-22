@@ -4,7 +4,7 @@
 
 | Prevalence | Detectability | Exploitability | Technical Impact |
 | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD |
+| 3 | 2 | 3 | 3 |
 
 ## The Gist
 
@@ -20,10 +20,6 @@ In many cases, sensitive data is stored unencrypted, data is moved between geolo
 Furthermore, application creators have many opportunities to hard-code secrets into their "code".
 Whether its through environment variables, configuration or code, applications can often rely on hard-coded secrets to access services.
 Hard-coded secrets are available to all users with write permissions to the applications, and might also leak to application readers or anonymous users via client-side code.
-
-## Impact
-
-TBD
 
 ## Example Attack Scenarios
 
@@ -47,4 +43,4 @@ TBD
 
 ## References
 
-TBD
+- [Establishing a DLP strategy](https://docs.microsoft.com/en-us/power-platform/guidance/adoption/dlp-strategy)

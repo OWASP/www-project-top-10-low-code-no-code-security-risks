@@ -4,7 +4,7 @@
 
 | Prevalence | Detectability | Exploitability | Technical Impact |
 | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD |
+| 2 | 2 | 3 | 2 |
 
 ## The Gist
 
@@ -18,10 +18,6 @@ Applications often lack a comprehensive audit trail, preventing change managemen
 
 Furthermore, many native log streams mix between application logs, metrics and sensitive data being passed through the application.
 On many platforms and by default, logs will contain actual data points used by the application.
-
-## Impact
-
-TBD
 
 ## Example Attack Scenarios
 
