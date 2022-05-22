@@ -21,11 +21,7 @@ This means that connections be shared between applications, with other users or 
 To increase productivity and reduce time-to-deliver, many no-code/low-code platforms abuse OAuth authorization flows by querying and storing user refresh tokens, and reusing them at will.
 This allows business users to quickly set up connections without thinking about secrets or permissions, but it means that connections are embedded with user identities that are difficult to monitor or revoke.
 Even through OAuth refresh tokens are designed to be short-lived, they are most frequently valid for a few months or even years.
-Hence, a connection created by a business user in under a minute could persist in the no-code/low-code platform for a large amount of time, and often get use by other users for different purpose than the original intention. 
-
-## Impact
-
-TBD
+Hence, a connection created by a business user in under a minute could persist in the no-code/low-code platform for a large amount of time, and often get use by other users for different purpose than the original intention.
 
 ## Example Attack Scenarios
 

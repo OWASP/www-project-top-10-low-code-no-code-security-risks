@@ -16,10 +16,6 @@ No-code/low-code applications ingest user-generated data in multiple ways, inclu
 Since applications often query data dynamically based on user input, they are exposed to a significant risk of injection-based attacks.
 Moreover, since applications can use user-generated content in various ways including querying a database, parsing a document and more, protection from injection-based attacks must take into account the specific applications and its use of user data. 
 
-## Impact
-
-TBD
-
 ## Example Attack Scenarios
 
 Ideas to explore (TBD):

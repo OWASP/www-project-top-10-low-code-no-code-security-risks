@@ -21,10 +21,6 @@ Furthermore, application creators have many opportunities to hard-code secrets i
 Whether its through environment variables, configuration or code, applications can often rely on hard-coded secrets to access services.
 Hard-coded secrets are available to all users with write permissions to the applications, and might also leak to application readers or anonymous users via client-side code.
 
-## Impact
-
-TBD
-
 ## Example Attack Scenarios
 
 Ideas to explore (TBD):

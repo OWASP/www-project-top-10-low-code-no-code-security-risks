@@ -17,10 +17,6 @@ As data movers, no-code/low-code applications can easily cause data leakage by m
 As operation triggers, no-code/low-code applications can result in unexpected consequences by implicitly coupling an operation one with system with a change on another.
 Furthermore, multiple applications can be connected to and triggered by a single data source, resulting in chained data movement or operation triggers which are difficult to predict or fully map.
 
-## Impact
-
-TBD
-
 ## Example Attack Scenarios
 
 Ideas to explore (TBD):

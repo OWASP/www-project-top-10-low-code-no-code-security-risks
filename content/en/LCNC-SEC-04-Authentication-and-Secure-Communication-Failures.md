@@ -17,9 +17,6 @@ Applications use built-in connectors, which allow easy connections to various se
 Connections offer a variety of security configuration, including communication protocols, authentication flows and types of credentials used.
 In many cases, connections are set up by business users, which can often result in deviation from best practice.
 
-## Impact
-
-TBD
 
 ## Example Attack Scenarios
 

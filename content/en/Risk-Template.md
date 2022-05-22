@@ -14,10 +14,6 @@ TBD
 
 TBD
 
-## Impact
-
-TBD
-
 ## Example Attack Scenarios
 
 ### Scenario #1

@@ -16,10 +16,6 @@ No-code/low-code platforms provide a wide range of features, some of which contr
 Misconfigurations can often result in anonymous user access to sensitive data or operations, unprotected public endpoints, unprotected secrets and oversharing.
 Furthermore, many configurations are set on the application-level rather than the tenant-level, which means that they can be set by business users rather than admins.
 
-## Impact
-
-TBD
-
 ## Example Attack Scenarios
 
 Ideas to explore (TBD):
