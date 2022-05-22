@@ -21,10 +21,6 @@ Furthermore, multiple applications can be connected to and triggered by a single
 
 TBD
 
-## How to Prevent
-
-TBD
-
 ## Example Attack Scenarios
 
 Ideas to explore (TBD):
@@ -39,6 +35,12 @@ TBD
 ### Scenario #2
 
 TBD
+
+## How to Prevent
+
+- Limit platform connectors to an approved services list.
+- Limit creation of custom connectors to dedicated personnel.
+- Monitor platforms for data flow outside the organizational boundary, including multi-hop paths.
 
 ## References
 

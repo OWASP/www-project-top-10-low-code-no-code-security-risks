@@ -24,10 +24,6 @@ These pieces of code are embedded into the application, and in some cases are no
 
 TBD
 
-## How to Prevent
-
-TBD
-
 ## Example Attack Scenarios
 
 Ideas to explore (TBD):
@@ -43,6 +39,14 @@ TBD
 
 TBD
 
+## How to Prevent
+
+- Remove unused dependencies, unnecessary features, components, files, and documentation.
+- Continuously inventory versions of applications and components used by those applications, and scan that inventory for deprecated or vulnerable components.
+- Limit use to pre-approved marketplace components.
+- Monitor for components that are unmaintained or do not create security patches for older versions.
+
 ## References
 
 - [CVE-2021-44228: Incident Report for Mendix Technology B.V.](https://status.mendix.com/incidents/8j5043my610c)
+- [A06:2021 – Vulnerable and Outdated Components, OWASP Top 10](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)

@@ -21,10 +21,6 @@ In many cases, connections are set up by business users, which can often result 
 
 TBD
 
-## How to Prevent
-
-TBD
-
 ## Example Attack Scenarios
 
 Ideas to explore (TBD):
@@ -38,6 +34,12 @@ TBD
 ### Scenario #2
 
 TBD
+
+## How to Prevent
+
+- In production environments, limit creation of connections to dedicated personnel.
+- Monitor platforms for connections that do not comply with best practice.
+- Educate business users on the risks insecure communication and the need to involve security teams when setting them up.
 
 ## References
 

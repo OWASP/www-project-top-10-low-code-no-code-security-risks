@@ -25,10 +25,6 @@ Hard-coded secrets are available to all users with write permissions to the appl
 
 TBD
 
-## How to Prevent
-
-TBD
-
 ## Example Attack Scenarios
 
 Ideas to explore (TBD):
@@ -42,6 +38,12 @@ TBD
 ### Scenario #2
 
 TBD
+
+## How to Prevent
+
+- Educate business users on the compliance, private and security risks related to data storage.
+- Monitor managed databases, environment variables and configuration provided by no-code/low-code vendors for sensitive data.
+- Ensure security teams are involved with applications gain access to sensitive data. 
 
 ## References
 

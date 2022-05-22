@@ -18,10 +18,6 @@ TBD
 
 TBD
 
-## How to Prevent
-
-TBD
-
 ## Example Attack Scenarios
 
 ### Scenario #1
@@ -29,6 +25,10 @@ TBD
 TBD
 
 ### Scenario #2
+
+TBD
+
+## How to Prevent
 
 TBD
 

@@ -29,10 +29,6 @@ This creates a direct path to privilege escalation, where application users can 
 
 TBD
 
-## How to Prevent
-
-TBD
-
 ## Example Attack Scenarios
 
 Ideas to explore (TBD):
@@ -47,6 +43,12 @@ TBD
 ### Scenario #2
 
 TBD
+
+## How to Prevent
+
+- Adhere to the Principal of Least Privilege when provisioning connections to external services.
+- Ensure applications use dedicated service account rather than user accounts.
+- Ensure applications use a single consistent identity across all of their connections, rather than a different identity for each connection. 
 
 ## References
 

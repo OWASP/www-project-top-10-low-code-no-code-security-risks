@@ -20,10 +20,6 @@ Moreover, since applications can use user-generated content in various ways incl
 
 TBD
 
-## How to Prevent
-
-TBD
-
 ## Example Attack Scenarios
 
 Ideas to explore (TBD):
@@ -37,6 +33,11 @@ TBD
 
 TBD
 
+## How to Prevent
+
+- Sanitize user input, taking into the account the operations that will be performed on that input by the application.
+- Educate business users on the risk of unsanitized user input. Platform cannot make this problem go away on their own. 
+
 ## References
 
-TBD
+- [A03:2021 – Injection, OWASP Top 10](https://owasp.org/Top10/A03_2021-Injection/)
