@@ -20,10 +20,6 @@ Furthermore, many configurations are set on the application-level rather than th
 
 TBD
 
-## How to Prevent
-
-TBD
-
 ## Example Attack Scenarios
 
 Ideas to explore (TBD):
@@ -41,6 +37,13 @@ TBD
 ### Scenario #2
 
 TBD
+
+## How to Prevent
+
+- Read vendor documentation and best practice.
+- Ensure configurations align with industry best practice.
+- Monitor configuration for drifts.
+- Implement a change management system for tenant-level configuration.
 
 ## References
 

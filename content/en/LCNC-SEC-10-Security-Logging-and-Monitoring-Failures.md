@@ -23,10 +23,6 @@ On many platforms and by default, logs will contain actual data points used by t
 
 TBD
 
-## How to Prevent
-
-TBD
-
 ## Example Attack Scenarios
 
 ### Scenario #1
@@ -37,6 +33,12 @@ TBD
 
 TBD
 
+## How to Prevent
+
+- Leverage platform built-in capabilities to collect user access and platform audit logs.
+- When applicable, instrument applications with logging mechanisms to provide extra visibility.
+- Ensure logs are not contaminated with sensitive data by configuring the platform not to log raw application data.
+
 ## References
 
-TBD
+- [A08:2021 – Software and Data Integrity Failures, OWASP Top 10](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/)

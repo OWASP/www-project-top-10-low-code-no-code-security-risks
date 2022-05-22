@@ -24,10 +24,6 @@ No-code/low-code applications can lack business continuity measures expected fro
 
 TBD
 
-## How to Prevent
-
-TBD
-
 ## Example Attack Scenarios
 
 Ideas to explore (TBD):
@@ -40,6 +36,11 @@ TBD
 ### Scenario #2
 
 TBD
+
+## How to Prevent
+
+- Maintain a comprehensive inventory which lists applications, components and users.
+- Remove unused dependencies, unnecessary features, components, files, and documentation.
 
 ## References
 

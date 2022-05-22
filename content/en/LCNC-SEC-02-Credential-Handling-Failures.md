@@ -27,10 +27,6 @@ Hence, a connection created by a business user in under a minute could persist i
 
 TBD
 
-## How to Prevent
-
-TBD
-
 ## Example Attack Scenarios
 
 Ideas to explore (TBD):
@@ -45,6 +41,13 @@ TBD
 ### Scenario #2
 
 TBD
+
+## How to Prevent
+
+- Disable or monitor for use of implicitly shared connections.
+- Adhere to the Principal of Least Privilege when providing access to environments that can contained shared connections.
+- Monitor no-code/low-code platforms for over-shared connections.
+- Educate business users on the risks of connection sharing and its relation to credential sharing.
 
 ## References
 
