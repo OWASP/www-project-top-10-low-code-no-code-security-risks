@@ -40,4 +40,4 @@ TBD
 
 ## References
 
-TBD
+- [The CISO View: Protecting Privileged Access in RPA](https://www.cyberark.com/resources/blog/ciso-view-insights-securely-scaling-rpa-initiatives)

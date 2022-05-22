@@ -43,4 +43,4 @@ TBD
 
 ## References
 
-TBD
+- [Establishing a DLP strategy](https://docs.microsoft.com/en-us/power-platform/guidance/adoption/dlp-strategy)
