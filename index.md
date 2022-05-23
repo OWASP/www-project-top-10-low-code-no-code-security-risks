@@ -9,6 +9,10 @@ type: documentation
 pitch: The primary goal of the "OWASP Top 10 Low-Code/No-Code Security Risks" document is to provide assistance and education for organizations looking to adopt and develop Low-Code/No-Code applications. The guide provides information about what are the most prominent security risks for such applications, the challenges involved, and how to overcome them.
 ---
 
+<div style="text-align: center;">
+    [![OWASP Low-Code / No-Code](assets/images/owasp-lcnc.png)](https://owasp.org/www-project-top-10-low-code-no-code-security-risks/)
+</div>
+
 ## Overview
 Low-code/No-Code development platforms provides a development environment used to create application software through a graphical user interface instead of traditional hand-coded computer programming. 
 Such platforms reduce the amount of traditional hand coding, enabling accelerated delivery of business applications. 
