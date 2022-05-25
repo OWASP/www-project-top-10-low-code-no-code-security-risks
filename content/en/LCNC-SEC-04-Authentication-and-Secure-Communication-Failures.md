@@ -12,10 +12,8 @@ No-code/low-code applications typically connect to business-critical data via co
 
 ## Description
 
-No-code/low-code applications typically connect to business-critical data across on-prem, Saas, PaaS and cloud.
-Applications use built-in connectors, which allow easy connections to various services.
-Connections offer a variety of security configuration, including communication protocols, authentication flows and types of credentials used.
-In many cases, connections are set up by business users, which can often result in deviation from best practice.
+No-code/low-code applications typically connect to business-critical data across on-premise, Saas, PaaS and cloud platforms.
+Applications use built-in connectors, which allow easy connections to various services. Connections offer a variety of security configurations, including communication protocols, authentication flows and types of credentials used. In many cases, connections are set up by business users, which can often result in deviation from best practices and corporate data security policies.
 
 
 ## Example Attack Scenarios

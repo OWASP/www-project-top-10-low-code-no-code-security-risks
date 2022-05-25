@@ -14,7 +14,7 @@ Misconfigurations can often result in anonymous user access to sensitive data or
 
 No-code/low-code platforms provide a wide range of features, some of which control the balance between security and support of specific use cases. 
 Misconfigurations can often result in anonymous user access to sensitive data or operations, unprotected public endpoints, unprotected secrets and oversharing.
-Furthermore, many configurations are set on the application-level rather than the tenant-level, which means that they can be set by business users rather than admins.
+Furthermore, many configurations are set on the application-level rather than the tenant-level, which means that they can be set by business users rather than administrators.
 
 ## Example Attack Scenarios
 
@@ -36,8 +36,8 @@ TBD
 
 ## How to Prevent
 
-- Read vendor documentation and best practice.
-- Ensure configurations align with industry best practice.
+- Read vendor documentation and follow best practices guides.
+- Ensure configurations align with industry best practices.
 - Monitor configuration for drifts.
 - Implement a change management system for tenant-level configuration.
 
