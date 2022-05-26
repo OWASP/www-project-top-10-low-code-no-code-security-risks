@@ -1,6 +1,6 @@
 ---
 title: Develop
-layout:  col-sidebar
+layout: null
 tab: true
 order: 4
 tags: develop
