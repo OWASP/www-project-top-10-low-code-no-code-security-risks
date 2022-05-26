@@ -21,13 +21,7 @@ In many platforms and by default, logs will contain actual data points used by t
 
 ## Example Attack Scenarios
 
-### Scenario #1
-
-TBD
-
-### Scenario #2
-
-TBD
+Coming soon
 
 ## How to Prevent
 

@@ -18,21 +18,7 @@ Furthermore, many configurations are set on the application-level rather than th
 
 ## Example Attack Scenarios
 
-Ideas to explore (TBD):
-- Turn on audit logs
-- RBAC
-- Power Platform requireUserConsent flag
-- broken access control
-  - Automation trigger is available to anonymous users
-  - Managed database is exposed to anonymous users (Power Platform data leak)
-
-### Scenario #1
-
-TBD
-
-### Scenario #2
-
-TBD
+Coming soon
 
 ## How to Prevent
 

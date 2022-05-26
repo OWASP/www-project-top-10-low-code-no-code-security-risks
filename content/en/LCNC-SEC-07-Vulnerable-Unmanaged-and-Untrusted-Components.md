@@ -22,18 +22,7 @@ These pieces of code are embedded into the application and in some cases are not
 
 ## Example Attack Scenarios
 
-Ideas to explore (TBD):
-- Log4J through marketplace components
-- Custom connectors or custom code
-- Using Open Source components with no review
-
-### Scenario #1
-
-TBD
-
-### Scenario #2
-
-TBD
+Coming soon
 
 ## How to Prevent
 

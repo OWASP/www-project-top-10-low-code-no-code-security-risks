@@ -19,18 +19,7 @@ Furthermore, multiple applications can be connected to and triggered by a single
 
 ## Example Attack Scenarios
 
-Ideas to explore (TBD):
-- Email forwarding
-- Shadow vendors - data moving outside the org boundary
-- Several hidden automations chain together two seemingly unrelated systems
-
-### Scenario #1
-
-TBD
-
-### Scenario #2
-
-TBD
+Coming soon
 
 ## How to Prevent
 
