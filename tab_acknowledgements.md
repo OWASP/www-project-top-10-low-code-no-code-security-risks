@@ -1,6 +1,6 @@
 ---
 title: Acknowledgements
-layout:  col-sidebar
+layout: null
 tab: true
 order: 3
 tags: acknowledgements
