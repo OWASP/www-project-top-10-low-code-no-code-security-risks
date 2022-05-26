@@ -3,7 +3,7 @@ title: Contributing
 layout: null
 tab: true
 order: 2
-tags: contributing
+tags: nocode
 ---
 
 ## Contributing
