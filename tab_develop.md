@@ -1,5 +1,6 @@
 ---
 title: Develop
+displaytext: Develop
 layout: null
 tab: true
 order: 4

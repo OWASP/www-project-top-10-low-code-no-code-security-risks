@@ -1,5 +1,6 @@
 ---
 title: Contributing
+displaytext: Contributing
 layout: null
 tab: true
 order: 2
