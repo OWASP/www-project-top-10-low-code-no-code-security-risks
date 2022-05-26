@@ -1,9 +1,9 @@
 ---
-title: Acknowledgments
+title: Acknowledgements
 layout:  col-sidebar
 tab: true
 order: 3
-tags: acknowledgments
+tags: acknowledgements
 ---
 
 ## Contributors
