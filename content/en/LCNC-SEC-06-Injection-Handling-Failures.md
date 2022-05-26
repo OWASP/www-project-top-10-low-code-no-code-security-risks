@@ -18,16 +18,7 @@ Moreover, since applications can use user provided content in various ways inclu
 
 ## Example Attack Scenarios
 
-Ideas to explore (TBD):
-- Improper input sanitation. Automations connecting various user inputs right into DBs. Very similar to the injection risk for Serverless Security.
-
-### Scenario #1
-
-TBD
-
-### Scenario #2
-
-TBD
+Coming soon
 
 ## How to Prevent
 

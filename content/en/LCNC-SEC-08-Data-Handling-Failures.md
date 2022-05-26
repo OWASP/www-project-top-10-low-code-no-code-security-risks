@@ -23,17 +23,7 @@ Hard-coded secrets are available to all users with write permissions to the appl
 
 ## Example Attack Scenarios
 
-Ideas to explore (TBD):
-- Sensitive data stored unencrypted (e.g. credit card)
-- Data moved between GEOs in a non-compliant way
-
-### Scenario #1
-
-TBD
-
-### Scenario #2
-
-TBD
+Coming soon
 
 ## How to Prevent
 

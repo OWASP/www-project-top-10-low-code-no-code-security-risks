@@ -24,18 +24,7 @@ Furthermore, identities are embedded within the application, and that applicatio
 
 ## Example Attack Scenarios
 
-Ideas to explore (TBD):
-- Application is embedded with maker credentials, which is implicitly used by any app user
-- Application uses a mixture of business / personal / vendor identities
-- App Impersonation: Users trust low code apps by default
-
-### Scenario #1
-
-TBD
-
-### Scenario #2
-
-TBD
+Coming soon
 
 ## How to Prevent
 

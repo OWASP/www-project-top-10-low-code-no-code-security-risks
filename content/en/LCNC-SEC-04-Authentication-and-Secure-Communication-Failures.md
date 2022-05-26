@@ -18,17 +18,7 @@ Applications use built-in connectors, which allow easy connections to various se
 
 ## Example Attack Scenarios
 
-Ideas to explore (TBD):
-- Use of plaintext protocols (i.e. HTTP, FTP)
-- Diverging from best practice (e.g. no validation of certificate, hard-coded secret)
-
-### Scenario #1
-
-TBD
-
-### Scenario #2
-
-TBD
+Coming soon
 
 ## How to Prevent
 

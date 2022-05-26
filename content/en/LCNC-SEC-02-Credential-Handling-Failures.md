@@ -23,18 +23,7 @@ Even through OAuth refresh tokens are designed to be short-lived, they are most 
 
 ## Example Attack Scenarios
 
-Ideas to explore (TBD):
-- Shared connections enable PrivEsc
-- Shared connection lead to account takeover (e.g. "forgot password")
-- Default settings encourage users to share their credentials with everyone
-
-### Scenario #1
-
-TBD
-
-### Scenario #2
-
-TBD
+Coming soon
 
 ## How to Prevent
 
