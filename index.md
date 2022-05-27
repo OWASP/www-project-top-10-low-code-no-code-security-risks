@@ -9,7 +9,7 @@ pitch: The primary goal of the "OWASP Top 10 Low-Code/No-Code Security Risks" do
 
 ---
 
-[![OWASP Low-Code / No-Code](assets/images/owasp-lcnc.png)](https://owasp.org/www-project-top-10-low-code-no-code-security-risks/)
+[![OWASP Low-Code / No-Code](assets/images/owasp-lcnc.png)](https://owasp.org/www-project-top-10-low-code-no-code-security-risks/ =1000x500)
 
 ## Overview
 Low-code/No-Code development platforms provide a development environment used to create application software through a graphical user interface instead of traditional hand-coded computer programming. 
@@ -24,16 +24,16 @@ The guide provides information about what are the most prominent security risks 
 
 ## The List (First Draft)
 
-1. [LCNC-SEC-01: Identity Misuse](content/en/LCNC-SEC-01-Identity-Misuse.md)
-2. [LCNC-SEC-02: Credential Sharing](content/en/LCNC-SEC-02-Credential-Handling-Failures.md)
-3. [LCNC-SEC-03: Data Leakage and Unexpected Consequences](content/en/LCNC-SEC-03-Data-Leakage-and-Unexpected-Consequences.md)
-4. [LCNC-SEC-04: Authentication and Secure Communication Failures](content/en/LCNC-SEC-04-Authentication-and-Secure-Communication-Failures.md)
-5. [LCNC-SEC-05: Security Misconfiguration](content/en/LCNC-SEC-05-Security-Misconfiguration.md)
-6. [LCNC-SEC-06: Injection Handling Failures](content/en/LCNC-SEC-06-Injection-Handling-Failures.md)
-7. [LCNC-SEC-07: Vulnerable, Unmanaged and Untrusted Components](content/en/LCNC-SEC-07-Vulnerable-Unmanaged-and-Untrusted-Components.md)
-8. [LCNC-SEC-08: Data and Secret Handling Failures](content/en/LCNC-SEC-08-Data-Handling-Failures.md)
-9. [LCNC-SEC-09: Asset Management Failures](content/en/LCNC-SEC-09-Asset-Management-Failures.md)
-10. [LCNC-SEC-10: Security Logging and Monitoring Failures](content/en/LCNC-SEC-10-Security-Logging-and-Monitoring-Failures.md)
+1. [LCNC-SEC-01: Identity Misuse](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-01-Identity-Misuse.md)
+2. [LCNC-SEC-02: Credential Sharing](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-02-Credential-Handling-Failures.md)
+3. [LCNC-SEC-03: Data Leakage and Unexpected Consequences](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-03-Data-Leakage-and-Unexpected-Consequences.md)
+4. [LCNC-SEC-04: Authentication and Secure Communication Failures](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-04-Authentication-and-Secure-Communication-Failures.md)
+5. [LCNC-SEC-05: Security Misconfiguration](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-05-Security-Misconfiguration.md)
+6. [LCNC-SEC-06: Injection Handling Failures](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-06-Injection-Handling-Failures.md)
+7. [LCNC-SEC-07: Vulnerable, Unmanaged and Untrusted Components](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-07-Vulnerable-Unmanaged-and-Untrusted-Components.md)
+8. [LCNC-SEC-08: Data and Secret Handling Failures](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-08-Data-Handling-Failures.md)
+9. [LCNC-SEC-09: Asset Management Failures](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-09-Asset-Management-Failures.md)
+10. [LCNC-SEC-10: Security Logging and Monitoring Failures](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-10-Security-Logging-and-Monitoring-Failures.md)
 
 
 ## Project Sponsors
