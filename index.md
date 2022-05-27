@@ -9,7 +9,7 @@ pitch: The primary goal of the "OWASP Top 10 Low-Code/No-Code Security Risks" do
 
 ---
 
-[![OWASP Low-Code / No-Code](assets/images/owasp-lcnc.png)](https://owasp.org/www-project-top-10-low-code-no-code-security-risks/ =500x250)
+<img src="assets/images/owasp-lcnc.png" width="500" height="250" />
 
 ## Overview
 Low-code/No-Code development platforms provide a development environment used to create application software through a graphical user interface instead of traditional hand-coded computer programming. 
