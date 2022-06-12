@@ -1,9 +1,10 @@
 ---
-title: Acknowledgments
-layout:  col-sidebar
+title: Supporters
+displaytext: Supporters
+layout: null
 tab: true
 order: 3
-tags: acknowledgments
+tags: tmphide
 ---
 
 ## Contributors
@@ -12,6 +13,7 @@ tags: acknowledgments
 | --- | --- | --- |
 | Michael Bargury | Zenity | [Twitter](https://twitter.com/mbrg0) [LinkedIn](https://www.linkedin.com/in/michaelbargury/) |
 | Ory Segal | Palo Alto Networks | [Twitter](https://twitter.com/orysegal) [LinkedIn](https://www.linkedin.com/in/orysegal/) |
+| Uriel Zilberberg | Zenity | [Twitter](https://twitter.com/UZisReal123) [LinkedIn](https://www.linkedin.com/in/uriel-zilberberg-50916811b/) |
 
 ## Project Sponsors
 The OWASP Top 10 Low-Code/No-Code Security Risks project is supported by [Zenity](https://www.zenity.io/)

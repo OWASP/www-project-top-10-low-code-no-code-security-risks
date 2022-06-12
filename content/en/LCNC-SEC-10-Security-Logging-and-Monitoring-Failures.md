@@ -8,16 +8,16 @@
 
 ## The Gist
 
-No-code/low-code applications often lack a comprehensive audit trail, produce none or insufficient logs, and fail to clear logs from sensitive data.
+No-code/low-code applications often lack a comprehensive audit trail, produce none or insufficient logs, and fail to scrub sensitive data from logs.
 
 ## Description
 
-No-code/low-code applications often rely on vendors to generate logs and monitors.
+No-code/low-code applications often rely on vendors to generate logs and monitoring data.
 In many cases, logs are either insufficient or not being collected, impeding security investigations and failing to satisfy compliance requirements.
 Applications often lack a comprehensive audit trail, preventing change management processes and inquires.
 
 Furthermore, many native log streams mix between application logs, metrics and sensitive data being passed through the application.
-On many platforms and by default, logs will contain actual data points used by the application.
+In many platforms and by default, logs will contain actual data points used by the application.
 
 ## Example Attack Scenarios
 
@@ -35,8 +35,8 @@ The maker can view app logs, giving them access to user files.
 ## How to Prevent
 
 - Leverage platform built-in capabilities to collect user access and platform audit logs.
-- When applicable, instrument applications with logging mechanisms to provide extra visibility.
-- Ensure logs are not contaminated with sensitive data by configuring the platform not to log raw application data.
+- Where applicable, instrument applications with logging mechanisms to provide extra visibility.
+- Ensure logs are not contaminated with sensitive data by configuring the platform to avoid logging raw application data.
 
 ## References
 
