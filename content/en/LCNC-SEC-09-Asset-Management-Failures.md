@@ -27,11 +27,17 @@ Ideas to explore (TBD):
 
 ### Scenario #1
 
-TBD
+A maker creates an application that becomes popular as an internal tool.
+The maker leaves the organization, or moves to another role.
+Due to an API change the application breaks, disrupting business.
+IT is not aware of the app and cannot help fix it.
 
 ### Scenario #2
 
-TBD
+A maker browses through the platform marketplace and explores app templates.
+Each click creates an app, with an external-facing URL.
+The user forgets about these apps, even though they might expose business data.
+This scenario is multiplier by the number of makers, resulting in an ever-growing amount of stale apps.
 
 ## How to Prevent
 

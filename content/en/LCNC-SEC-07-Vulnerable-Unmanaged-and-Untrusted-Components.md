@@ -27,13 +27,16 @@ Ideas to explore (TBD):
 - Custom connectors or custom code
 - Using Open Source components with no review
 
-### Scenario #1
+### Scenario #2
 
-TBD
+Makers across the organization use a vulnerable component off the marketplace.
+Every app that uses the component is exposed to exploitation.
+Admins can find it difficult to locate apps affected by the vulnerable component.
 
 ### Scenario #2
 
-TBD
+A developer creates a custom connector that allows makers to connect to an internal business API.
+The custom connector passes the authentication token on the URL, resulting in exposing the authentication secrets to app users.
 
 ## How to Prevent
 

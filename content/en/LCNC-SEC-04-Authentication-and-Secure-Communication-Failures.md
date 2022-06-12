@@ -31,9 +31,9 @@ Users of the app have no way to know that their data is being transferred unencr
 
 ### Scenario #2
 
-A maker creates an application that uses a custom API, and hard-codes the API key in the application code.
-Other makers can access the API key directly.
-Moreover, the API key might leak to the app's client code allowing users to gain direct access to the key.
+A maker uses admin credentials to create a database connection.
+They build an application that uses that connection to show data to its users.
+Even though they intended to allow read-only operations through the app, users can use the over-privileged connection to write or delete records from the database.
 
 ## How to Prevent
 
