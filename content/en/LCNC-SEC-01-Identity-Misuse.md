@@ -34,11 +34,17 @@ Ideas to explore (TBD):
 
 ### Scenario #1
 
-TBD
+A maker creates a simple application to view records from a database.
+They use their own identity to log into the database, which creates a connection embedded within the application.
+Every action performed by users in the app ends up querying the database with the maker's identity.
+A malicious user takes advantage of this, and uses the application to view, modify or delete records they should not have access to.
+Database logs indicate that all querying were made by a single user, the app maker.
 
 ### Scenario #2
 
-TBD
+A maker creates a business application that allows corporate employees to fill out forms with their information.
+To store form responses, the user uses their own personal Gmail account.
+Users have no way of knowing that the app is storing their data on the maker's personal account. 
 
 ## How to Prevent
 
