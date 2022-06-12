@@ -21,7 +21,16 @@ In many platforms and by default, logs will contain actual data points used by t
 
 ## Example Attack Scenarios
 
-Coming soon
+### Scenario #1
+
+App logs are turned-off.
+When a breach attempt occurs, security teams are unable to determine who access the app and what did they try to do. 
+
+### Scenario #2
+
+A maker creates an app that allow users to search through their corporate drive for certain files.
+The app logs full execution context, including the file's content.
+The maker can view app logs, giving them access to user files.
 
 ## How to Prevent
 

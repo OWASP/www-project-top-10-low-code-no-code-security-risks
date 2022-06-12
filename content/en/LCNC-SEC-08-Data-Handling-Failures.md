@@ -23,7 +23,17 @@ Hard-coded secrets are available to all users with write permissions to the appl
 
 ## Example Attack Scenarios
 
-Coming soon
+### Scenario #1
+
+A maker creates a business application that asks users to fill out a form with sensitive data.
+They use the managed database provided by the platform to store results.
+Since the managed database is stored with every other maker by default, they all gain access to the sensitive data.
+
+### Scenario #2
+
+A maker creates an application that uses a custom API, and hard-codes the API key in the application code.
+Other makers can access the API key directly.
+Moreover, the API key might leak to the app's client code allowing users to gain direct access to the key.
 
 ## How to Prevent
 

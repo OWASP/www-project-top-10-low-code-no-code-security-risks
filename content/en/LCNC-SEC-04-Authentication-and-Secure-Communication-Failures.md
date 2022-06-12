@@ -18,7 +18,16 @@ Applications use built-in connectors, which allow easy connections to various se
 
 ## Example Attack Scenarios
 
-Coming soon
+### Scenario #1
+
+A maker creates an app that uses an FTP connection, and doesn't check the box that turns on encryption.
+Users of the app have no way to know that their data is being transferred unencrypted, since the communication between the app and its users is encrypted.
+
+### Scenario #2
+
+A maker uses admin credentials to create a database connection.
+They build an application that uses that connection to show data to its users.
+Even though they intended to allow read-only operations through the app, users can use the over-privileged connection to write or delete records from the database.
 
 ## How to Prevent
 

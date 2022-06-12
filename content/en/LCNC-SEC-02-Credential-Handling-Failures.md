@@ -23,7 +23,19 @@ Even through OAuth refresh tokens are designed to be short-lived, they are most 
 
 ## Example Attack Scenarios
 
-Coming soon
+### Scenario #1
+
+A maker creates a connection to their corporate email account.
+They inadvertently click the "share with everyone" option.
+Every user the in organization, including contractors and vendors, gains access to their corporate email account.
+A malicious user triggers a "forgot password" flow and uses the connection to follow through with the process and gain control over the account.
+
+### Scenario #2
+
+A maker creates a simple application to view records from a database.
+The application has configured permissions to make sure each user can only view records related to them.
+However, the application is set up in a way such that the underlying database connection is implicitly shared with its user.
+An application user can use the database connection directly, gaining full access to all records.
 
 ## How to Prevent
 
