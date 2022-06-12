@@ -26,11 +26,14 @@ Ideas to explore (TBD):
 
 ### Scenario #1
 
-TBD
+A maker creates an app that uses an FTP connection, and doesn't check the box that turns on encryption.
+Users of the app have no way to know that their data is being transferred unencrypted, since the communication between the app and its users is encrypted.
 
 ### Scenario #2
 
-TBD
+A maker creates an application that uses a custom API, and hard-codes the API key in the application code.
+Other makers can access the API key directly.
+Moreover, the API key might leak to the app's client code allowing users to gain direct access to the key.
 
 ## How to Prevent
 

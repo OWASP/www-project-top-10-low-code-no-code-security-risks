@@ -44,7 +44,14 @@ Database logs indicate that all querying were made by a single user, the app mak
 
 A maker creates a business application that allows corporate employees to fill out forms with their information.
 To store form responses, the user uses their own personal Gmail account.
-Users have no way of knowing that the app is storing their data on the maker's personal account. 
+Users have no way of knowing that the app is storing their data on the maker's personal account.
+
+### Scenario #3
+
+A maker creates a business application and shares it with an admin.
+The maker configures the app to use its user's identity.
+Aside from its stated purpose, the app also uses its user's identity to elevate the privileges of the maker.
+Once the admin uses the app, they inadvertently elevate the maker's privileges. 
 
 ## How to Prevent
 

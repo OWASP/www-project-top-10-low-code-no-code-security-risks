@@ -28,11 +28,14 @@ Ideas to explore (TBD):
 
 ### Scenario #1
 
-TBD
+A maker creates an application that exposes an API endpoint, and fails to configure that endpoint to deny anonymous access.
+Attackers scan the low-code/no-code platform's subdomains, locate the app and steal its underlying data.
 
 ### Scenario #2
 
-TBD
+A maker creates an automation that is triggered by a webhook, but fails to protect that trigger with a secret.
+Attackers identify the webhook and can now trigger the automation at will.
+The automation could be modifying or deleting data.
 
 ## How to Prevent
 

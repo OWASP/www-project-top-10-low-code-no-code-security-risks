@@ -26,11 +26,16 @@ Ideas to explore (TBD):
 
 ### Scenario #1
 
-TBD
+A maker sets up an automation that triggers on every new email received in their corporate mailbox.
+For each email, they create a new email message on their personal Gmail account, and copy the recipients, subject and body.
+Since data is copied to a separate mailbox rather than emails being forwarded, the automation bypasses DLP controls.
 
 ### Scenario #2
 
-TBD
+Maker #1 sets up an automation that syncs changes between two SharePoint sites, such that every new file on site A is created on site B.
+User #2 accidentally writes a sensitive document to site A, not knowing that it is replicated to site B.
+User #2 deletes the document from site A.
+However, the document is still available in site B.
 
 ## How to Prevent
 
