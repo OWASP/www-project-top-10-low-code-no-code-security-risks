@@ -8,7 +8,7 @@
 
 ## The Gist
 
-No-code/low-code application are easy to create and have relatively low maintenance costs, which makes them prone to abandonement, while still remaining active.
+No-code/low-code application are easy to create and have relatively low maintenance costs, which makes them prone to abandonment, while still remaining active.
 Furthermore, internal applications can gain popularity rapidly, without addressing business continuity concerns.
 
 ## Description

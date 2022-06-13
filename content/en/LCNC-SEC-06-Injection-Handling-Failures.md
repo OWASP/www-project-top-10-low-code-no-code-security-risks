@@ -12,7 +12,7 @@ No-code/low-code applications ingest user provided data in multiple ways, includ
 
 ## Description
 
-No-code/low-code applications ingest user porivded data in multiple ways, including direct input or retrieving user provided content from various services.
+No-code/low-code applications ingest user provided data in multiple ways, including direct input or retrieving user provided content from various services.
 Since applications often query data dynamically based on user input, they are exposed to a significant risk of injection-based attacks.
 Moreover, since applications can use user provided content in various ways including querying a database, parsing a document and so forth, protection from injection-based attacks must take into account the specific application and its use of user data. 
 
