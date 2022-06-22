@@ -9,7 +9,7 @@ pitch: The primary goal of the "OWASP Top 10 Low-Code/No-Code Security Risks" do
 
 ---
 
-<img src="assets/images/owasp-lcnc.png" width="500" height="250" />
+<img src="assets/images/owasp-lcnc.png" alt="OWASP Top 10 for Low-Code/No-Code Apps" width="500" height="250" />
 
 [![stars](https://img.shields.io/github/stars/OWASP/www-project-top-10-low-code-no-code-security-risks?icon=github&style=social)](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks)
 [![twitter](https://img.shields.io/twitter/follow/OWASPNoCode?icon=twitter&style=social&label=Follow)](https://twitter.com/intent/follow?screen_name=OWASPNoCode)
@@ -44,4 +44,4 @@ The guide provides information about what are the most prominent security risks 
 ## Project Sponsors
 The OWASP Top 10 Low-Code/No-Code Security Risks project is supported by [Zenity](https://www.zenity.io/)
 <br>
-[![Zenity](assets/images/zenity-new-logo2.png)](https://www.zenity.io/)
+<img src="assets/images/zenity-logo.png" alt="Zenity.io" width="500" height="250" />
