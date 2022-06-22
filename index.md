@@ -44,4 +44,4 @@ The guide provides information about what are the most prominent security risks 
 ## Project Sponsors
 The OWASP Top 10 Low-Code/No-Code Security Risks project is supported by [Zenity](https://www.zenity.io/)
 <br>
-<a href="https://www.zenity.io"><img src="assets/images/zenity-logo.png" alt="Zenity.io" width="500" height="250" /></a>
+<a href="https://www.zenity.io"><img src="assets/images/zenity-logo.png" alt="Zenity.io" width="250" height="125" /></a>
