@@ -18,4 +18,4 @@ tags: tmphide
 ## Project Sponsors
 The OWASP Top 10 Low-Code/No-Code Security Risks project is supported by [Zenity](https://www.zenity.io/)
 <br>
-<img src="assets/images/zenity-logo.png" alt="Zenity.io" width="500" height="250" />
+<a href="https://www.zenity.io"><img src="assets/images/zenity-logo.png" alt="Zenity.io" width="500" height="250" /></a>
