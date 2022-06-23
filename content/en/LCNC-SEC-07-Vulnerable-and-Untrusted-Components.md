@@ -1,4 +1,4 @@
-# LCNC-SEC-07: Vulnerable, Unmanaged and Untrusted Components
+# LCNC-SEC-07: Vulnerable and Untrusted Components
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
