@@ -30,7 +30,7 @@ The guide provides information about what are the most prominent security risks 
 ## The List (First Draft)
 
 1. [LCNC-SEC-01: Identity Misuse](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-01-Identity-Misuse.md)
-2. [LCNC-SEC-02: Authorization Failures](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-02-Authorization-Failures.md)
+2. [LCNC-SEC-02: Authorization Misuse](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-02-Authorization-Misuse.md)
 3. [LCNC-SEC-03: Data Leakage and Unexpected Consequences](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-03-Data-Leakage-and-Unexpected-Consequences.md)
 4. [LCNC-SEC-04: Authentication and Secure Communication Failures](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-04-Authentication-and-Secure-Communication-Failures.md)
 5. [LCNC-SEC-05: Security Misconfiguration](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-05-Security-Misconfiguration.md)
