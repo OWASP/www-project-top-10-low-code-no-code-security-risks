@@ -1,4 +1,4 @@
-# LCNC-SEC-08: Data Handling Failures
+# LCNC-SEC-08: Data and Secret Handling Failures
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
@@ -20,6 +20,9 @@ In many cases, sensitive data is stored unencrypted, data is moved between geo-l
 Furthermore, application creators have many opportunities to hard-code secrets into their "code".
 Whether its through environment variables, configuration or code, applications can often rely on hard-coded secrets to access services.
 Hard-coded secrets are available to all users with write permissions to the applications, and might also leak to application readers or anonymous users via client-side code.
+
+Moreover, many native log streams mix between application logs, metrics and sensitive data being passed through the application.
+In many platforms and by default, logs will contain actual data points used by the application.
 
 ## Example Attack Scenarios
 

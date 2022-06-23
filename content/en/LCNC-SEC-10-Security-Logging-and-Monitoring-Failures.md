@@ -8,16 +8,15 @@
 
 ## The Gist
 
-No-code/low-code applications often lack a comprehensive audit trail, produce none or insufficient logs, and fail to scrub sensitive data from logs.
+No-code/low-code applications often lack a comprehensive audit trail, produce none or insufficient logs, or overshare access to sensitive logs.
 
 ## Description
 
 No-code/low-code applications often rely on vendors to generate logs and monitoring data.
 In many cases, logs are either insufficient or not being collected, impeding security investigations and failing to satisfy compliance requirements.
-Applications often lack a comprehensive audit trail, preventing change management processes and inquires.
 
-Furthermore, many native log streams mix between application logs, metrics and sensitive data being passed through the application.
-In many platforms and by default, logs will contain actual data points used by the application.
+Furthermore, applications often lack a comprehensive audit trail, preventing change management processes and inquires.
+Finding out who introduced a change becomes an intractable challenge.
 
 ## Example Attack Scenarios
 
@@ -28,9 +27,11 @@ When a breach attempt occurs, security teams are unable to determine who access 
 
 ### Scenario #2
 
-A maker creates an app that allow users to search through their corporate drive for certain files.
-The app logs full execution context, including the file's content.
-The maker can view app logs, giving them access to user files.
+A business-critical application stop functioning following a change.
+Since multiple changes have occurred, each one resulting in an application update, it is very difficult to find which maker has introduced the particular change that caused the issue.
+Makers would have to review each application version manually to locate the problematic version.
+Since every application "save" translates to an update, the number of updates would make a manual process prohibitively expensive.
+On some platforms, makers can only review the current version of the application, and so they won't be able to find or revert into a stable version.
 
 ## How to Prevent
 
