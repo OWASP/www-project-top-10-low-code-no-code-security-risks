@@ -9,6 +9,8 @@ tags: nocode
 
 ## Contributors
 
+Individuals that provided a significant contribution to the project:
+
 | Name | Affiliation | Contact |
 | --- | --- | --- |
 | Michael Bargury | Zenity | [Twitter](https://twitter.com/mbrg0) [LinkedIn](https://www.linkedin.com/in/michaelbargury/) |
