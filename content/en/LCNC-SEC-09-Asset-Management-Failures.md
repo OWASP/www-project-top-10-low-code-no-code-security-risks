@@ -8,38 +8,38 @@
 
 ## The Gist
 
-No-code/low-code application are easy to create and have relatively low maintenance costs, which makes them prone to abandonment, while still remaining active.
-Furthermore, internal applications can gain popularity rapidly, without addressing business continuity concerns.
+No-code/low-code applications are easy to create and have relatively low maintenance costs, making them prone to abandonment while remaining active.
+Furthermore, internal applications can gain popularity rapidly without addressing business continuity concerns.
 
 ## Description
 
-No-code/low-code application are prone to abandonment, while still remaining active.
-The ease of creating new applications, their relatively low maintenance costs and the fact that they are often managed by SaaS services are all contributing factors. 
-This means that the number of active applications in an organization tends to grow rapidly, and that popular business applications can often find themselves without an owner.
+No-code/low-code applications are prone to abandonment while remaining active.
+The ease of creating new applications, their relatively low maintenance costs, and the fact that they are often managed by SaaS services are all contributing factors. 
+This means that the number of active applications in an organization tends to grow rapidly and that popular business applications can often find themselves without an owner.
 
-Furthermore, the viral nature of useful internal business applications within large organizations, can result in applications developed by a single business user and being relied on by many users throughout the organization.
-No-code/low-code applications can lack business continuity measures expected from important business applications, for example having multiple owners, being monitored by IT or offering an SLA.
+Furthermore, the viral nature of useful internal business applications within large organizations can result in applications developed by a single business user and being relied on by many users throughout the organization.
+No-code/low-code applications can lack business continuity measures expected from important business applications, for example, having multiple owners, being monitored by IT, or offering an SLA.
 
 ## Example Attack Scenarios
 
 ### Scenario #1
 
 A maker creates an application that becomes popular as an internal tool.
-The maker leaves the organization, or moves to another role.
-Due to an API change the application breaks, disrupting business.
+The maker leaves the organization or moves to another role.
+Due to an API change, the application breaks, disrupting business.
 IT is not aware of the app and cannot help fix it.
 
 ### Scenario #2
 
 A maker browses through the platform marketplace and explores app templates.
-Each click creates an app, with an external-facing URL.
+Each click creates an app with an external-facing URL.
 The user forgets about these apps, even though they might expose business data.
-This scenario is multiplier by the number of makers, resulting in an ever-growing amount of stale apps.
+This scenario is multiplied by the number of makers, resulting in an ever-growing amount of stale apps.
 
 ## How to Prevent
 
-- Maintain a comprehensive inventory which lists applications, components and users.
-- Remove unused dependencies, unnecessary features, components, files, and documentation.
+- Maintain a comprehensive inventory that lists applications, components, and users.
+- Remove or disable unused dependencies, unnecessary features, components, files, and documentation.
 
 ## References
 

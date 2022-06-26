@@ -12,25 +12,25 @@ No-code/low-code applications often sync data or trigger operations across multi
 
 ## Description
 
-No-code/low-code applications are often used to sync data between multiple systems or trigger operations on one system as a result of a change in another.
-As data movers, no-code/low-code applications can easily cause data leakage by moving data outside the organizational boundary, to another organization or to a personal account.
-As operation triggers, no-code/low-code applications can result in unexpected consequences by implicitly coupling an operation within one system, with a change on another.
+No-code/low-code applications are often used to sync data between multiple systems or trigger operations on one system due to a change in another.
+As data movers, no-code/low-code applications can easily cause data leakage by moving data outside the organizational boundary to another organization or a personal account.
+As operation triggers, no-code/low-code applications can result in unexpected consequences by implicitly coupling an operation within one system with a change in another.
 Furthermore, multiple applications can be connected to and triggered by a single data source, resulting in chained data movement or operation triggers, which are difficult to predict or fully map.
 
 ## Example Attack Scenarios
 
 ### Scenario #1
 
-A maker sets up an automation that triggers on every new email received in their corporate mailbox.
-For each email, they create a new email message on their personal Gmail account, and copy the recipients, subject and body.
-Since data is copied to a separate mailbox rather than emails being forwarded, the automation bypasses DLP controls.
+A maker configures automation that triggers on each new email received in their corporate mailbox.
+Automation sends a new email to the maker's personal email account, copying the recipients, subject, and body from the original email received in the corporate mailbox.
+Since data is copied to a separate mailbox rather than emails being forwarded from the corporate mailbox, the automation bypasses DLP controls.
 
 ### Scenario #2
 
-Maker #1 sets up an automation that syncs changes between two SharePoint sites, such that every new file on site A is created on site B.
+Maker #1 sets up automation that syncs changes between two SharePoint sites, so every new file on site A is copied to site B.
 User #2 accidentally writes a sensitive document to site A, not knowing that it is replicated to site B.
 User #2 deletes the document from site A.
-However, the document is still available in site B.
+However, the document is still available on site B.
 
 ## How to Prevent
 

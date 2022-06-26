@@ -8,24 +8,24 @@
 
 ## The Gist
 
-Misconfigurations can often result in anonymous user access to sensitive data or operations, unprotected public endpoints, unprotected secrets and oversharing.
+Misconfigurations can often result in anonymous access to sensitive data or operations, unprotected public endpoints, secrets, and oversharing.
 
 ## Description
 
 No-code/low-code platforms provide a wide range of features, some of which control the balance between security and support of specific use cases. 
-Misconfigurations can often result in anonymous user access to sensitive data or operations, unprotected public endpoints, unprotected secrets and oversharing.
-Furthermore, many configurations are set on the application-level rather than the tenant-level, which means that they can be set by business users rather than administrators.
+Misconfigurations can often result in anonymous user access to sensitive data or operations, unprotected public endpoints, secrets, and oversharing.
+Furthermore, many configurations are set on the application level rather than the tenant level, meaning they can be set by business users rather than administrators.
 
 ## Example Attack Scenarios
 
 ### Scenario #1
 
-A maker creates an application that exposes an API endpoint, and fails to configure that endpoint to deny anonymous access.
+A maker creates an application that exposes an API endpoint and fails to configure that endpoint to deny anonymous access.
 Attackers scan the low-code/no-code platform's subdomains, locate the app and steal its underlying data.
 
 ### Scenario #2
 
-A maker creates an automation that is triggered by a webhook, but fails to protect that trigger with a secret.
+A maker creates automation triggered by a webhook but fails to protect that webhook with a secret.
 Attackers identify the webhook and can now trigger the automation at will.
 The automation could be modifying or deleting data.
 
