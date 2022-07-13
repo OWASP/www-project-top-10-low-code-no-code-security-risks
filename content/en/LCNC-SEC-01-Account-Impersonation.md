@@ -1,4 +1,4 @@
-# LCNC-SEC-01: Identity Misuse
+# LCNC-SEC-01: Account Impersonation
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
