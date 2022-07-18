@@ -27,7 +27,7 @@ The primary goal of the "OWASP Top 10 Low-Code/No-Code Security Risks" document 
 The guide provides information about what are the most prominent security risks for such applications, the challenges involved, and how to overcome them.
 .
 
-## The List (First Draft)
+## The List
 
 1. [LCNC-SEC-01: Account Impersonation](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-01-Account-Impersonation.md)
 2. [LCNC-SEC-02: Authorization Misuse](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks/blob/main/content/en/LCNC-SEC-02-Authorization-Misuse.md)
