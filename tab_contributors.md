@@ -17,7 +17,8 @@ Individuals that provided a significant contribution to the project:
 | Ory Segal | Palo Alto Networks | [Twitter](https://twitter.com/orysegal) [LinkedIn](https://www.linkedin.com/in/orysegal/) |
 | Don Willits | Microsoft | [LinkedIn](https://www.linkedin.com/in/don-willits-9081835/) |
 
-## Project Sponsors
+## Sponsors
+
 The OWASP Top 10 Low-Code/No-Code Security Risks project is supported by [Zenity](https://www.zenity.io/)
 <br>
 <a href="https://www.zenity.io"><img src="assets/images/zenity-logo.png" alt="Zenity.io" width="250" height="125" /></a>
