@@ -1,6 +1,6 @@
 ---
-title: How to contribute
-displaytext: How to contribute
+title: Join
+displaytext: Join
 layout: null
 tab: true
 order: 2
