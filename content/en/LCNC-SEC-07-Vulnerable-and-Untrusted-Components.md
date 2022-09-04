@@ -24,13 +24,13 @@ These pieces of code are embedded into the application and, in some cases, are n
 
 ### Scenario #1
 
-Makers across the organization use a vulnerable component from the marketplace.
+Developers across the organization use a vulnerable component from the marketplace.
 Every app that uses the component is exposed to exploitation.
 Admins can find it difficult to locate apps affected by the vulnerable component.
 
 ### Scenario #2
 
-A developer creates a custom connector that allows makers to connect to an internal business API.
+A developer creates a custom connector that allows developers to connect to an internal business API.
 The custom connector passes the authentication token on the URL, exposing the authentication secrets to app users.
 
 ## How to Prevent

@@ -26,14 +26,14 @@ Hence, a connection created by a business user in under a minute could persist i
 
 ### Scenario #1
 
-A maker creates a connection to their corporate email account.
+A developer creates a connection to their corporate email account.
 They inadvertently click the "share with everyone" option, granting either usage permissions or full ownership.
 Every user in the organization, including contractors and vendors, gains access to their corporate email account.
 A malicious user triggers a "forgot password" flow and uses the connection to follow through with the process and gain control over the account.
 
 ### Scenario #2
 
-A maker creates a simple application to view records from a database.
+A developer creates a simple application to view records from a database.
 The application is configured to ensure each user can only view related records.
 However, the application is configured in such a way that the underlying database connection is implicitly shared with its user.
 An application user can use the database connection directly, gaining full access to all records.
