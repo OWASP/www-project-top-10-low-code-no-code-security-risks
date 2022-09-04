@@ -1,13 +1,13 @@
 ---
-title: Contributing
-displaytext: Contributing
+title: How to contribute
+displaytext: How to contribute
 layout: null
 tab: true
 order: 2
 tags: nocode
 ---
 
-## Contributing
+## How to contribute
 
 Involvement in the development and promotion of OWASP Top 10 Low-Code/No-Code Security Risks is actively encouraged!
 You do not have to be a security expert in order to contribute. 
