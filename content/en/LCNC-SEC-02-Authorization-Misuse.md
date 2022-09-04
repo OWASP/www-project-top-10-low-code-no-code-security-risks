@@ -8,7 +8,7 @@
 
 ## The Gist
 
-Service connections are first-class objects in most no-code/low-code platforms. This means connections between applications, other users, or entire organizations. Applications can also be shared with users who should not have access to their underlying data.
+Connections are first-class objects in most no-code/low-code platforms. This means connections between applications, other users, or entire organizations. Applications can also be shared with users who should not have access to their underlying data.
 
 ## Description
 
@@ -27,7 +27,7 @@ Hence, a connection created by a business user in under a minute could persist i
 ### Scenario #1
 
 A maker creates a connection to their corporate email account.
-They inadvertently click the "share with everyone" option.
+They inadvertently click the "share with everyone" option, granting either usage permissions or full ownership.
 Every user in the organization, including contractors and vendors, gains access to their corporate email account.
 A malicious user triggers a "forgot password" flow and uses the connection to follow through with the process and gain control over the account.
 
@@ -40,8 +40,8 @@ An application user can use the database connection directly, gaining full acces
 
 ### Scenario #3
 
-Admin connects an application to their source code management system (i.e., BitBucket) using a service account.
-The provisioned service account has unrestricted access to all repositories to enable seamless integration.
+Admin connects an application to their source code management system (i.e., BitBucket) using a service or application account.
+The provisioned service or application account has unrestricted access to all repositories to enable seamless integration.
 Any internal user can abuse this connection to access restricted repositories they usually don't have access to.
 
 
@@ -51,7 +51,9 @@ Any internal user can abuse this connection to access restricted repositories th
 - Adhere to the principle of least privilege when providing access to environments that can contain shared connections.
 - Monitor no-code/low-code platforms for over-shared connections.
 - Educate business users on the risks of connection sharing and its relation to credential sharing.
+- Explicitly refresh OAuth tokens on a regular basis by re-authenticating connections.
 
 ## References
 
+- [Credential Sharing as a Service: The Hidden Risk of Low-Code/No-Code](https://www.darkreading.com/dr-tech/credential-sharing-as-a-service-hidden-risk-of-low-code-no-code)
 - [Low-Code Platforms Are the New Holy Grail for Hackers](https://www.zenity.io/blog/why-are-low-code-platforms-becoming-the-new-holy-grail-of-cyberattackers/)

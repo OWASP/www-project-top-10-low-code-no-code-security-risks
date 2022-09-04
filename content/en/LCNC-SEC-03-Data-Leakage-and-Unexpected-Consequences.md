@@ -8,12 +8,15 @@
 
 ## The Gist
 
-No-code/low-code applications often sync data or trigger operations across multiple systems, which creates a path for data to find its way outside the organizational boundary. This means that operations in one system can have unexpected consequences in another.
+No-code/low-code applications legitimately access data from underlying services but can also serve as a conduit to those backend systems for actions that were not anticipated or approved of. 
+This includes unintended side effects such as data leakage beyond the application/security boundary; triggering create, read, update or delete operations on the data; or accidental/malicious data exfiltration.
 
 ## Description
 
-No-code/low-code applications are often used to sync data between multiple systems or trigger operations on one system due to a change in another.
-As data movers, no-code/low-code applications can easily cause data leakage by moving data outside the organizational boundary to another organization or a personal account.
+No-code/low-code applications often access data or perform operations on underlying services.
+As data operators, no-code/low-code applications can easily cause data leakage by moving data outside its designated storage or even the organizational boundary.
+
+In some cases, no-code/low-code applications can be used to sync data between multiple systems or trigger operations on one system due to a change in another.
 As operation triggers, no-code/low-code applications can result in unexpected consequences by implicitly coupling an operation within one system with a change in another.
 Furthermore, multiple applications can be connected to and triggered by a single data source, resulting in chained data movement or operation triggers, which are difficult to predict or fully map.
 
@@ -21,11 +24,16 @@ Furthermore, multiple applications can be connected to and triggered by a single
 
 ### Scenario #1
 
+A maker grants an application access to a corporate database.
+The application is shared with other users, granting them implicit access to the database without going through an approval or access request process.
+
+### Scenario #2
+
 A maker configures automation that triggers on each new email received in their corporate mailbox.
 Automation sends a new email to the maker's personal email account, copying the recipients, subject, and body from the original email received in the corporate mailbox.
 Since data is copied to a separate mailbox rather than emails being forwarded from the corporate mailbox, the automation bypasses DLP controls.
 
-### Scenario #2
+### Scenario #3
 
 Maker #1 sets up automation that syncs changes between two SharePoint sites, so every new file on site A is copied to site B.
 User #2 accidentally writes a sensitive document to site A, not knowing that it is replicated to site B.
@@ -34,7 +42,7 @@ However, the document is still available on site B.
 
 ## How to Prevent
 
-- Limit platform connectors to an approved services list.
+- Limit connectors to an approved services list.
 - Limit creation of custom connectors to dedicated personnel.
 - Monitor platforms for data flow outside the organizational boundary, including multi-hop paths.
 
