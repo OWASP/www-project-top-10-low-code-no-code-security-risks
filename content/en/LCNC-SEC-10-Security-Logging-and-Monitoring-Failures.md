@@ -28,10 +28,10 @@ When a breach attempt occurs, security teams are unable to determine who accesse
 ### Scenario #2
 
 A business-critical application stops functioning following a change.
-Since multiple changes have occurred, each resulting in an application update, it is challenging to find which maker has introduced the particular change that caused the issue.
-Makers would have to review each application version manually to locate the problematic version.
+Since multiple changes have occurred, each resulting in an application update, it is challenging to find which developer has introduced the particular change that caused the issue.
+Developers would have to review each application version manually to locate the problematic version.
 Since every application "save" translates to an update, the number of updates would make a manual process prohibitively expensive.
-On some platforms, makers can only review the application's current version, so they won't be able to find or revert to a stable version.
+On some platforms, developers can only review the application's current version, so they won't be able to find or revert to a stable version.
 
 ## How to Prevent
 

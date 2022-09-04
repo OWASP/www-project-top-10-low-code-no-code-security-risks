@@ -20,12 +20,12 @@ Furthermore, many configurations are set on the application level rather than th
 
 ### Scenario #1
 
-A maker creates an application that exposes an API endpoint and fails to configure that endpoint to deny anonymous access.
+A developer creates an application that exposes an API endpoint and fails to configure that endpoint to deny anonymous access.
 Attackers scan the low-code/no-code platform's subdomains, locate the app and steal its underlying data.
 
 ### Scenario #2
 
-A maker creates automation triggered by a webhook but fails to protect that webhook with a secret.
+A developer creates automation triggered by a webhook but fails to protect that webhook with a secret.
 Attackers identify the webhook and can now trigger the automation at will.
 The automation could be modifying or deleting data.
 

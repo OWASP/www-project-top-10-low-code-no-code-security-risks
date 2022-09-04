@@ -24,18 +24,18 @@ Furthermore, multiple applications can be connected to and triggered by a single
 
 ### Scenario #1
 
-A maker grants an application access to a corporate database.
+A developer grants an application access to a corporate database.
 The application is shared with other users, granting them implicit access to the database without going through an approval or access request process.
 
 ### Scenario #2
 
-A maker configures automation that triggers on each new email received in their corporate mailbox.
-Automation sends a new email to the maker's personal email account, copying the recipients, subject, and body from the original email received in the corporate mailbox.
+A developer configures automation that triggers on each new email received in their corporate mailbox.
+Automation sends a new email to the developer's personal email account, copying the recipients, subject, and body from the original email received in the corporate mailbox.
 Since data is copied to a separate mailbox rather than emails being forwarded from the corporate mailbox, the automation bypasses DLP controls.
 
 ### Scenario #3
 
-Maker #1 sets up automation that syncs changes between two SharePoint sites, so every new file on site A is copied to site B.
+Developer #1 sets up automation that syncs changes between two SharePoint sites, so every new file on site A is copied to site B.
 User #2 accidentally writes a sensitive document to site A, not knowing that it is replicated to site B.
 User #2 deletes the document from site A.
 However, the document is still available on site B.

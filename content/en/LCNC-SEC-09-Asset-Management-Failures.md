@@ -24,17 +24,17 @@ No-code/low-code applications can lack business continuity measures expected fro
 
 ### Scenario #1
 
-A maker creates an application that becomes popular as an internal tool.
-The maker leaves the organization or moves to another role.
+A developer creates an application that becomes popular as an internal tool.
+The developer leaves the organization or moves to another role.
 Due to an API change, the application breaks, disrupting business.
 IT is not aware of the app and cannot help fix it.
 
 ### Scenario #2
 
-A maker browses through the platform marketplace and explores app templates.
+A developer browses through the platform marketplace and explores app templates.
 Each click creates an app with an external-facing URL.
 The user forgets about these apps, even though they might expose business data.
-This scenario is multiplied by the number of makers, resulting in an ever-growing amount of stale apps.
+This scenario is multiplied by the number of developers, resulting in an ever-growing amount of stale apps.
 
 ## How to Prevent
 

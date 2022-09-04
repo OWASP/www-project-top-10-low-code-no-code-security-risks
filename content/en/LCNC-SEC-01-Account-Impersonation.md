@@ -8,7 +8,7 @@
 
 ## The Gist
 
-No-code/Low-code applications can be embedded with a maker account which is used implicitly by any application user. 
+No-code/Low-code applications can be embedded with a developer account which is used implicitly by any application user. 
 This creates a direct path towards Privilege Escalation, allows an attacker to hide behind another user's identity, and circumvents traditional security controls.
 
 ## Description
@@ -28,24 +28,24 @@ In such a case, one user could be used to store files on a file-sharing SaaS and
 
 ### Scenario #1
 
-A maker creates a simple application to view records from a database.
+A developer creates a simple application to view records from a database.
 They use their identity to log into the database, creating a connection embedded within the application.
-Every action users perform in the application ends up querying the database with the maker's identity.
+Every action users perform in the application ends up querying the database with the developer's identity.
 A malicious user takes advantage of this and uses the application to view, modify or delete records they should not have access to.
-Database logs indicate that all queries were made by a single user, the app maker.
+Database logs indicate that all queries were made by a single user, the app developer.
 
 ### Scenario #2
 
-A maker creates a business application that allows corporate employees to fill out forms with their information.
-To store form responses, the maker uses their personal email account.
-Users have no way of knowing that the app is storing their data on the maker's personal account.
+A developer creates a business application that allows corporate employees to fill out forms with their information.
+To store form responses, the developer uses their personal email account.
+Users have no way of knowing that the app is storing their data on the developer's personal account.
 
 ### Scenario #3
 
-A maker creates a business application and shares it with an admin.
-The maker configures the app to use its user's identity.
-Aside from its stated purpose, the app also uses its user's identity to elevate the privileges of the maker.
-Once the admin uses the app, they inadvertently elevate the maker's privileges. 
+A developer creates a business application and shares it with an admin.
+The developer configures the app to use its user's identity.
+Aside from its stated purpose, the app also uses its user's identity to elevate the privileges of the developer.
+Once the admin uses the app, they inadvertently elevate the developer's privileges. 
 
 ## How to Prevent
 
