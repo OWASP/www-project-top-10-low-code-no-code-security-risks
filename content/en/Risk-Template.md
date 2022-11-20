@@ -1,4 +1,9 @@
-# LCNC-SEC-XX: TITLE
+---
+
+layout: col-sidebar
+title: "LCNC-SEC-XX: TITLE"
+
+---
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 

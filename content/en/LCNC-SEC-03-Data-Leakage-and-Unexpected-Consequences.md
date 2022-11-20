@@ -1,4 +1,9 @@
-# LCNC-SEC-03: Data Leakage and Unexpected Consequences
+---
+
+layout: col-sidebar
+title: "LCNC-SEC-03: Data Leakage and Unexpected Consequences"
+
+---
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 

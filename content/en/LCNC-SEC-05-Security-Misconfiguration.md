@@ -1,4 +1,9 @@
-# LCNC-SEC-05: Security Misconfiguration
+---
+
+layout: col-sidebar
+title: "LCNC-SEC-05: Security Misconfiguration"
+
+---
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
