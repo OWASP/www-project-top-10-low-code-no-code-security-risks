@@ -1,4 +1,9 @@
-# LCNC-SEC-02: Authorization Misuse
+---
+
+layout: col-sidebar
+title: "LCNC-SEC-02: Authorization Misuse"
+
+---
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 

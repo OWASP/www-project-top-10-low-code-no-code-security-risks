@@ -1,4 +1,9 @@
-# LCNC-SEC-10: Security Logging and Monitoring Failures
+---
+
+layout: col-sidebar
+title: "LCNC-SEC-10: Security Logging and Monitoring Failures"
+
+---
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
