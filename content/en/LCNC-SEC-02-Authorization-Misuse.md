@@ -1,4 +1,9 @@
-# LCNC-SEC-02: Authorization Misuse
+---
+
+layout: col-sidebar
+title: "LCNC-SEC-02: Authorization Misuse"
+
+---
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
@@ -8,7 +13,7 @@
 
 ## The Gist
 
-Connections are first-class objects in most no-code/low-code platforms. This means connections between applications, other users, or entire organizations. Applications can also be shared with users who should not have access to their underlying data.
+Connections are first-class objects in most no-code/low-code platforms. This means connections between applications, other users, or entire organizations. Applications can also be shared with users who should not have access to their underlying data. In addition, the application may have a broad authorization scope more than the use case demands.
 
 ## Description
 
@@ -21,6 +26,8 @@ Many no-code/low-code platforms abuse OAuth authorization flows by querying and 
 This allows business users to quickly set up connections without thinking about secrets or permissions; at the same time, connections are embedded with user identities that are difficult to monitor or revoke.
 Even though OAuth refresh tokens are designed to be short-lived, they are most frequently valid for a few months or even years. 
 Hence, a connection created by a business user in under a minute could persist in the no-code/low-code platform for an extended period and often get used by other users for different purposes than the original intention.
+
+An authorization scope controls the access to resources and assets of an organization. No-code/low-code platform application developers prefer broad authorization scope for their applications to make them as generic as possible. For organizations, this allows quick and easy setup of applications, which they can later use for other use cases without needing another application. The broad authorization scope does come at the cost of unnecessary risk of authorization misuse.
 
 ## Example Attack Scenarios
 
@@ -44,6 +51,10 @@ Admin connects an application to their source code management system (e.g., Bitb
 The provisioned service or application account has unrestricted access to all repositories to enable seamless integration.
 Any internal user can abuse this connection to access restricted repositories they usually don't have access to.
 
+### Scenario #4
+
+A developer creates a simple application to submit forms from one platform to another.
+The application, however, is configured to require authorization to edit and delete form submissions when just creating form submissions should have been enough.
 
 ## How to Prevent
 
@@ -52,6 +63,7 @@ Any internal user can abuse this connection to access restricted repositories th
 - Monitor no-code/low-code platforms for over-shared connections.
 - Educate business users on the risks of connection sharing and its relation to credential sharing.
 - Explicitly refresh OAuth tokens on a regular basis by re-authenticating connections.
+- Carefully review the scope an application requires and adhere to the principle of least privilege.
 
 ## References
 

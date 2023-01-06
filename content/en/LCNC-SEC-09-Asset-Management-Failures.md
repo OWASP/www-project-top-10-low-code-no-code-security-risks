@@ -1,4 +1,9 @@
-# LCNC-SEC-09: Asset Management Failures
+---
+
+layout: col-sidebar
+title: "LCNC-SEC-09: Asset Management Failures"
+
+---
 
 ## Risk Rating [*](https://owasp.org/www-project-top-ten/2017/Note_About_Risks)
 
