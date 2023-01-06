@@ -47,7 +47,7 @@ An application user can use the database connection directly, gaining full acces
 
 ### Scenario #3
 
-Admin connects an application to their source code management system (i.e., BitBucket) using a service or application account.
+Admin connects an application to their source code management system (e.g., Bitbucket) using a service or application account.
 The provisioned service or application account has unrestricted access to all repositories to enable seamless integration.
 Any internal user can abuse this connection to access restricted repositories they usually don't have access to.
 

@@ -39,7 +39,7 @@ IT is not aware of the app and cannot help fix it.
 A developer browses through the platform marketplace and explores app templates.
 Each click creates an app with an external-facing URL.
 The user forgets about these apps, even though they might expose business data.
-This scenario is multiplied by the number of developers, resulting in an ever-growing amount of stale apps.
+This scenario is multiplied by the number of developers, resulting in an ever-growing number of stale apps.
 
 ## How to Prevent
 
