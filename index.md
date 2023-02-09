@@ -22,7 +22,7 @@ Such platforms reduce the amount of traditional hand-coding, enabling accelerate
 As Low-Code/No-Code platforms proliferate and become widely used by organizations, there is a clear and immediate need to create awareness around security and privacy risks related to applications developed on such platforms.
 <br>
 <br>
-The primary goal of the "OWASP Top 10 Low-Code/No-Code Security Risks" document is to provide assistance and education for organizations looking to adopt and develop Low-Code/No-Code applications. 
+The primary goal of the "OWASP Low-Code/No-Code Top 10" document is to provide assistance and education for organizations looking to adopt and develop Low-Code/No-Code applications. 
 The guide provides information about what are the most prominent security risks for such applications, the challenges involved, and how to overcome them.
 .
 
