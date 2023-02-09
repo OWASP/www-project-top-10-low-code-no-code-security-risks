@@ -1,4 +1,4 @@
-# OWASP No-Code Low-Code Security
+# OWASP Low-Code/No-Code Top 10
 
 <a href="https://owasp.org/www-project-top-10-low-code-no-code-security-risks/"><img src="assets/images/owasp-lcnc.png" alt="OWASP Top 10 for Low-Code/No-Code Apps" width="500" height="250" /></a>
 
