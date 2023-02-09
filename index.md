@@ -38,9 +38,3 @@ The guide provides information about what are the most prominent security risks 
 8. [LCNC-SEC-08: Data and Secret Handling Failures](content/en/LCNC-SEC-08-Data-and-Secret-Handling-Failures)
 9. [LCNC-SEC-09: Asset Management Failures](content/en/LCNC-SEC-09-Asset-Management-Failures)
 10. [LCNC-SEC-10: Security Logging and Monitoring Failures](content/en/LCNC-SEC-10-Security-Logging-and-Monitoring-Failures)
-
-
-## Project Sponsors
-The OWASP Top 10 Low-Code/No-Code Security Risks project is supported by [Zenity](https://www.zenity.io/)
-<br>
-<a href="https://www.zenity.io"><img src="assets/images/zenity-logo.png" alt="Zenity.io" width="250" height="125" /></a>
