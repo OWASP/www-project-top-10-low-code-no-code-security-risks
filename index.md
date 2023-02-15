@@ -16,7 +16,7 @@ pitch: The primary goal of the "OWASP Top 10 Low-Code/No-Code Security Risks" do
 [![email group](https://img.shields.io/badge/group-nocode-red?logo=Gmail)](https://groups.google.com/g/owasp-no-code-low-code)
 
 ## Overview
-Low-code/No-Code development platforms provide a development environment used to create application software through a graphical user interface instead of traditional hand-coded computer programming. 
+Low-Code/No-Code development platforms provide a development environment used to create application software through a graphical user interface instead of traditional hand-coded computer programming. 
 Such platforms reduce the amount of traditional hand-coding, enabling accelerated delivery of business applications. 
 
 As Low-Code/No-Code platforms proliferate and become widely used by organizations, there is a clear and immediate need to create awareness around security and privacy risks related to applications developed on such platforms.
