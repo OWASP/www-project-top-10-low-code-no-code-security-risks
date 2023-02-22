@@ -1,5 +1,7 @@
 ### Project Classification
 
+<i class="fas fa-flask" style="font-size: 1.3em; color:#f7b73c;"></i>
+<span style="font-size: 1.3em;">Lab Project</span>
 ![Documentation Project][doc-proj-logo]
 
 [![Builders][builders-logo]][builders]
