@@ -5,7 +5,7 @@ title: "Methodology and Data"
 
 ---
 
-## Methodology
+## Methodology and Data
 
 The following stages take place for the release of each Top 10 version:
 
