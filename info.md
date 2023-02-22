@@ -28,6 +28,7 @@
 - [LCNC-SEC-08: Data and Secret Handling Failures](/www-project-top-10-low-code-no-code-security-risks/content/2022/en/LCNC-SEC-08-Data-and-Secret-Handling-Failures)
 - [LCNC-SEC-09: Asset Management Failures](/www-project-top-10-low-code-no-code-security-risks/content/2022/en/LCNC-SEC-09-Asset-Management-Failures)
 - [LCNC-SEC-10: Security Logging and Monitoring Failures](/www-project-top-10-low-code-no-code-security-risks/content/2022/en/LCNC-SEC-10-Security-Logging-and-Monitoring-Failures)
+- [Methodology and Data](/www-project-top-10-low-code-no-code-security-risks/content/2022/en/Methodology-and-Data)
 
 ### Social and Community
 
