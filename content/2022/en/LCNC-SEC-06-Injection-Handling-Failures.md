@@ -43,4 +43,5 @@ A user opens the CSV file to analyze user forms, and the macro gets executed.
 
 ## References
 
+- [SOQL Injection](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/pages_security_tips_soql_injection.htm)
 - [A03:2021 – Injection, OWASP Top 10](https://owasp.org/Top10/A03_2021-Injection/)

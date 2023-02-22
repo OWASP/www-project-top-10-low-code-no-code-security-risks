@@ -51,4 +51,5 @@ Moreover, the API key might leak to the app's client code allowing users to gain
 
 ## References
 
+- [3 Ways No-Code Developers Can Shoot Themselves in the Foot](https://www.darkreading.com/dr-tech/3-ways-no-code-developers-can-shoot-themselves-in-the-foot)
 - [Establishing a DLP strategy](https://docs.microsoft.com/en-us/power-platform/guidance/adoption/dlp-strategy)

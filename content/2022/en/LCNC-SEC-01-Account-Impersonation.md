@@ -61,6 +61,7 @@ Once the admin uses the app, they inadvertently elevate the developer's privileg
 
 ## References
 
+- [Low Code High Risk - Enterprise Domination via Low Code Abuse, DEF CON 2022](https://www.youtube.com/watch?v=D3A62Rzozq4)
 - [Watch Out for User Impersonation in Low-Code/No-Code Apps](https://www.darkreading.com/edge-articles/watch-out-for-user-impersonation-in-low-code-no-code-apps)
 - [Do low-code / no-code platforms pose a security risk?](https://sdtimes.com/lowcode/do-low-code-no-code-platforms-pose-a-security-risk/)
 - [Credential Sharing as a Service: The Hidden Risk of Low-Code/No-Code](https://www.darkreading.com/dr-tech/credential-sharing-as-a-service-hidden-risk-of-low-code-no-code)
