@@ -1,11 +1,15 @@
----
-title: Join
-displaytext: Join
-layout: null
-tab: true
-order: 2
-tags: nocode
----
+
+# Contributing
+
+Thank you for taking the time and interest to contribute!
+
+### Table of Contents
+
+- [How to contribute](#how-to-contribute)
+- [How to reach out](#how-to-reach-out)
+- [Got an idea?](#got-an-idea)
+- [Getting Started with your first Pull Request](#getting-started-with-your-first-pull-request)
+
 
 ## How to contribute
 
@@ -17,7 +21,7 @@ Here are some ways you can help:
 - We are looking for organizations and individuals that will provide vulnerability prevalence data
 - Translate the top 10 to non-English languages
 - Review, critique and suggest improvements to the Top 10 list
-- Star the [GitHub Project](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks)
+- Star this [GitHub Project](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks)
 - Contribute real world examples to categories in the Top 10 list
 - Add your Success Story - [tell us](mailto:michael.bargury@owasp.org) and the world how you're using the Top 10 list
 
