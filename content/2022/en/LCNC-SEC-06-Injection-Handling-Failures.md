@@ -39,9 +39,11 @@ A user opens the CSV file to analyze user forms, and the macro gets executed.
 ## How to Prevent
 
 - Sanitize user input, taking into account the operations that will be performed on that input by the application.
+- For database interaction via SQL also use query parameterization, stored procedures, or escaping.
 - Educate business users on the risk of unsanitized user input. Platforms cannot make this problem go away on their own. 
 
 ## References
 
 - [SOQL Injection](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/pages_security_tips_soql_injection.htm)
 - [A03:2021 – Injection, OWASP Top 10](https://owasp.org/Top10/A03_2021-Injection/)
+- [Robot Framework / RPA Framework SQL injection example & prevention](https://aabashkin.github.io/posts/rf_sqli#a-modern-example-with-a-low-code--rpa-platform)
