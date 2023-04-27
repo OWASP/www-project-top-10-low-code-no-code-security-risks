@@ -11,6 +11,8 @@ title: "LCNC-SEC-06: Injection Handling Failures"
 | --- | --- | --- | --- |
 | 2 | 2 | 2 | 2 |
 
+When user’s input data into a system, that data can be interpreted as “code to run” rather than “data to be stored or processed”.  
+
 ## The Gist
 
 No-code/low-code applications ingest user-provided data in multiple ways, including direct input or retrieving user-provided content from various services. Such data can contain malicious payloads that may introduce risk to the application.
@@ -35,6 +37,16 @@ The app encodes form data as CSV files and stores them on a shared drive.
 Even though the platform sanitizes form inputs for SQL injection attacks, they are not sanitized for Office macro attacks.
 An attacker takes advantage of this and inputs a macro that gets written into the CSV file.
 A user opens the CSV file to analyze user forms, and the macro gets executed.
+
+## Example Attack & Misuse Scenarios - Business Users
+
+### Scenario #1
+
+A user builds an online feedback form for an ecommerce store. A malicious user fills out the form using their knowledge of database commands that updates the prices of an item from $1,000 to $1. The hacker then buys the $1,000 item for $1, costing the company $999. 
+
+### Scenario #2
+
+A user builds a registration form for new users. A malicious user uses their knowledge of database commands to delete all users from the database. Users with pending orders try to check on the status of their orders, to be told their account doesn't exist. 
 
 ## How to Prevent
 

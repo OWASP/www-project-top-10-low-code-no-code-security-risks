@@ -11,6 +11,8 @@ title: "LCNC-SEC-05: Security Misconfiguration"
 | --- | --- | --- | --- |
 | 3 | 2 | 3 | 3 |
 
+In building a solution, many choices have to be made that can impact security. This risk is a bit of a “catch-all” where a user makes choices to settings that create risk. They can range from how/where sensitive data is stored, encryption settings, and more. 
+
 ## The Gist
 
 Misconfigurations can often result in anonymous access to sensitive data or operations, unprotected public endpoints, secrets, and oversharing.
@@ -33,6 +35,16 @@ Attackers scan the low-code/no-code platform's subdomains, locate the app and st
 A developer creates automation triggered by a webhook but fails to protect that webhook with a secret.
 Attackers identify the webhook and can now trigger the automation at will.
 The automation could be modifying or deleting data.
+
+## Example Attack & Misuse Scenarios - Business Users
+
+### Scenario #1
+
+A new application is built that requires a password to be set by a user. The “rules” configured for this new application are less secure than the company's password policy. The less secure password makes it easier for a malicious user to guess the users password and access the system. 
+
+### Scenario #2
+
+An application is created that allows users to upload documents to a server. The upload process has not been configured to scan the document upon upload for security risks. A malicious user uses this process to upload a document containing malware that then locks all computers in the company unless a payment is made (ransomware).
 
 ## How to Prevent
 

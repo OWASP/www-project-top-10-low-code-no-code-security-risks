@@ -11,6 +11,8 @@ title: "LCNC-SEC-10: Security Logging and Monitoring Failures"
 | --- | --- | --- | --- |
 | 2 | 2 | 3 | 2 |
 
+When an application runs, it's critical to know what ran and the actions it took (also known as an audit trail). This is often done using logging of specific actions. This risk occurs when running these systems log too much or too little information.  
+
 ## The Gist
 
 No-code/low-code applications often lack a comprehensive audit trail, produce none or insufficient logs, or overshare access to sensitive logs.
@@ -37,6 +39,18 @@ Since multiple changes have occurred, each resulting in an application update, i
 Developers would have to review each application version manually to locate the problematic version.
 Since every application "save" translates to an update, the number of updates would make a manual process prohibitively expensive.
 On some platforms, developers can only review the application's current version, so they won't be able to find or revert to a stable version.
+
+## Example Attack & Misuse Scenarios - Business Users
+
+### Scenario #1
+
+A developer builds an automated process to load data into a financial system to complete order processing. The process handles around one thousand transactions per week with a 97% success rate. The 3% that fail are processed manually off of a daily Failed Transaction email.  
+
+The Failed Transaction email fails to get sent for a few days before its absence is noticed. Due to poor logging there is no easy way to find the failed records. Instead 100% of all transactions have to be investigated to find the failures, resulting in a significantly larger task. 
+
+### Scenario #2
+
+An application to process credit card payments at a conference is created.   As part of its creation, a detailed log file is created to track the transactions and stored on a shared network drive. The logging includes records of the credit card details. A user browsing the network drive discovers this file and is able to obtain all of the credit card data. 
 
 ## How to Prevent
 

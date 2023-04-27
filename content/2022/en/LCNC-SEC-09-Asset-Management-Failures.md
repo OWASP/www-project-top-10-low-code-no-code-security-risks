@@ -11,6 +11,8 @@ title: "LCNC-SEC-09: Asset Management Failures"
 | --- | --- | --- | --- |
 | 3 | 2 | 3 | 2 |
 
+Keeping a clear inventory of applications in an organization is critical to maintaining a healthy ecosystem. Since LCNC applications can be developed rapidly and with ease, keeping track of what applications exist, how to maintain them, and who “owns” them becomes challenging.  
+
 ## The Gist
 
 No-code/low-code applications are easy to create and have relatively low maintenance costs, making them prone to abandonment while remaining active.
@@ -40,6 +42,21 @@ A developer browses through the platform marketplace and explores app templates.
 Each click creates an app with an external-facing URL.
 The user forgets about these apps, even though they might expose business data.
 This scenario is multiplied by the number of developers, resulting in an ever-growing number of stale apps.
+
+## Example Attack & Misuse Scenarios - Business Users
+
+### Scenario #1
+
+A developer builds an automated process to load data from a network location into the financial system to complete order processing. A manager is alerted the process isn't running. The developer is now working for another company and has left no documentation. What should have been a quick fix takes weeks, and results in many thousands of overtime to manually process the transactions. 
+
+### Scenario #2
+
+The security team notices that an account is being used to store multiple records simultaneously by a single user. This pattern indicates one of the vulnerabilities ([LCNC-SEC-01-Account-Impersonation](content/2022/en/LCNC-SEC-01-Account-Impersonation.md)) may have occurred. The security team wants to identify the application and implement a change to record the individual user's actions to their credentials. Due to poor inventory management, IT is unable to identify what application is causing this and therefore unable to enforce an appropriate change. 
+
+### Scenario #3
+
+The Security team is planning a Vulnerability test of all applications.   Due to poor inventory management, several LCNC developed applications are missed during this test. These applications have vulnerabilities that later led to a data breach. This breach should have been prevented if the security team were able to test the application. 
+
 
 ## How to Prevent
 

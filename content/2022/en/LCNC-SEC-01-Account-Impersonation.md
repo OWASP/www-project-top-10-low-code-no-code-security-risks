@@ -11,6 +11,8 @@ title: "LCNC-SEC-01: Account Impersonation"
 | --- | --- | --- | --- |
 | 3 | 2 | 3 | 3 |
 
+A critical component of any system is tracking what user is taking actions in that system.  When account impersonation occurs it “looks” like actions taken by one user are being done by another. 
+
 ## The Gist
 
 No-code/Low-code applications can be embedded with a developer account which is used implicitly by any application user. 
@@ -51,6 +53,16 @@ A developer creates a business application and shares it with an admin.
 The developer configures the app to use its user's identity.
 Aside from its stated purpose, the app also uses its user's identity to elevate the privileges of the developer.
 Once the admin uses the app, they inadvertently elevate the developer's privileges. 
+
+## Example Attack & Misuse Scenarios - Business Users
+
+### Scenario #1
+
+A developer builds a No Code/Low Code Robotic Process Automation (RPA) application that connects to a database to update records. The connection uses the Admin's authentication (username and password) to log updates.   Although 10 different users use this RPA process, all actions are being recorded as being done by the Admin. Logging systems can no longer track productivity, attribute errors to specific users, or identify malicious behavior.
+
+### Scenario #2
+
+A developer builds an application to help the sales team in the field. The developer uses their credentials (username and password) when writing the application, so all sales made through the application are attributed to the developer, not the sales person facilitating the sale. 
 
 ## How to Prevent
 

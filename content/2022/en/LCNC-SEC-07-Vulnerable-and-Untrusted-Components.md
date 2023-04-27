@@ -11,6 +11,8 @@ title: "LCNC-SEC-07: Vulnerable and Untrusted Components"
 | --- | --- | --- | --- |
 | 2 | 2 | 2 | 2 |
 
+To accelerate building a solution, many LCNC platforms have the equivalent of an “app store” where a developer can use pre-made parts of a solution created by third parties. These pre-made components can come with any of the risks below, as well as being created with malicious intent. 
+
 ## The Gist
 
 No-code/low-code applications rely heavily on ready-made components out of the marketplace, the web, or custom connectors built by developers.
@@ -37,6 +39,20 @@ Admins can find it difficult to locate apps affected by the vulnerable component
 
 A developer creates a custom connector that allows developers to connect to an internal business API.
 The custom connector passes the authentication token on the URL, exposing the authentication secrets to app users.
+
+## Example Attack & Misuse Scenarios - Business Users
+
+### Scenario #1
+
+A user is building an application that connects to their human resources systems to update salary information. The user finds a third party created “connector” to add to their HR system that greatly simplifies their task. The connector was created without properly securing the transmission ([LCNC-SEC-04-Authentication-and-Secure-Communication-Failures](content/2022/en/LCNC-SEC-04-Authentication-and-Secure-Communication-Failures.md)), allowing a malicious user to view the data in-transit. The malicious user is able to use this to obtain and publicly publish the salaries of all employees.  
+
+### Scenario #2
+
+A user builds a tablet based application to allow sales to be processed at a conference. They find a component that processes credit card data and decides to add it to their solution. The component was maliciously designed to send the credit card data to its creator. As a result, all of the conference users who purchased products had their credit card data stolen. 
+
+### Scenario #3
+
+A new application has been created using a third party component for login.  The third party component comes with default credentials of admin/admin, which is publicly documented. The developer is unaware of this default setting and does not change it. A malicious user is able to access the application using these default settings, leading to unauthorized access to the application.
 
 ## How to Prevent
 
