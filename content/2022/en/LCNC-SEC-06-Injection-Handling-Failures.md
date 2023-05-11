@@ -13,34 +13,28 @@ title: "LCNC-SEC-06: Injection Handling Failures"
 
 ## The Gist
 
-No-code/low-code applications ingest user-provided data in multiple ways, including direct input or retrieving user-provided content from various services. Such data can contain malicious payloads that may introduce risk to the application.
+Resources built using low-code/no-code development platforms ingest user-provided data in multiple ways, including direct input or retrieving user-provided content from various services. Such data can contain malicious payloads that may introduce risk to the application, automation, connection, workflow, bot, or integration.
 
 ## Description
 
-No-code/low-code applications ingest user-provided data in multiple ways, including direct input or retrieving user-provided content from various services.
-Since applications often query data dynamically based on user input, they are exposed to a significant risk of injection-based attacks.
-Moreover, since applications can use user-provided content in various ways, including querying a database, parsing a document, and so forth, protection from injection-based attacks must consider the specific application and its use of user data. 
+Low-code/no-code applications ingest user-provided data in multiple ways, including direct input or retrieving user-provided content from various services. Since applications often query data dynamically based on user input, they are exposed to a significant risk of injection-based attacks. Moreover, since applications can use user-provided content in various ways, including querying a database, parsing a document, and so forth, protection from injection-based attacks must consider the specific application and its use of user data.
 
 ## Example Attack Scenarios
 
 ### Scenario #1
 
-A developer sets up automation that triggers on new publications to an RSS feed and stores them into a SQL database.
-An attacker controlling the feed uses this flow to inject commands into the database that delete important records.
+A developer sets up an automation that triggers every time a new publication is made to an RSS feed and stores it into a SQL database. An attacker controlling the feed uses this flow to inject commands into the database that delete important records.
 
 ### Scenario #2
 
-A developer creates an app that allows users to fill out forms.
-The app encodes form data as CSV files and stores them on a shared drive.
-Even though the platform sanitizes form inputs for SQL injection attacks, they are not sanitized for Office macro attacks.
-An attacker takes advantage of this and inputs a macro that gets written into the CSV file.
-A user opens the CSV file to analyze user forms, and the macro gets executed.
+A developer creates an application that allows users to fill out forms. The app encodes form data as CSV files and stores them on a shared drive. When sanitizing inputs, security teams need to think about and label all the different things that are inputting data into, which is likely to result in something being missed, like an Office macro attack. An attacker takes advantage of this and inputs a macro that gets written into the CSV file. A user opens the CSV file to analyze user forms, and the macro gets executed.
 
 ## How to Prevent
 
-- Sanitize user input, taking into account the operations that will be performed on that input by the application.
-- For database interaction via SQL also use query parameterization, stored procedures, or escaping.
-- Educate business users on the risk of unsanitized user input. Platforms cannot make this problem go away on their own. 
+- Sanitize user input, taking into account the operations that will be performed on that input by the application
+- For database interaction via SQL, also use query parameterization, stored procedures, or escaping
+- Educate business users on the risk of unsanitized user input. Platforms cannot make this problem go away on their own
+
 
 ## References
 
