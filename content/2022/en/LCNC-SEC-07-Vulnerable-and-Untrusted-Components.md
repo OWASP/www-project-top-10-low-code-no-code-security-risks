@@ -13,23 +13,28 @@ title: "LCNC-SEC-07: Vulnerable and Untrusted Components"
 
 ## The Gist
 
-Low-code/no-code development relies heavily on ready-made components out of marketplaces, the web, or custom connectors built by developers. These components are often unmanaged, lack visibility, and expose organizations to supply chain-based risks.
+Low-code/no-code development relies heavily on ready-made components out of marketplaces, the web, or custom connectors built by developers. 
+These components are often unmanaged, lack visibility, and expose organizations to supply chain-based risks.
 
 ## Description
 
-In many cases, entire applications are built by vendors leveraging pre-built components, data connectors, widgets, and sub-services. Third-party components and applications are often a target for attackers who wish to compromise a large number of customers.
+In many cases, entire applications are built by vendors leveraging pre-built components, data connectors, widgets, and sub-services. 
+Third-party components and applications are often a target for attackers who wish to compromise a large number of customers.
 
-Moreover, low-code/no-code development often enables extensibility through custom code. These pieces of code are embedded into the application and, in some cases, are not held up to the same level of security vigilance as with other profesionally developed applications.
+Moreover, low-code/no-code development often enables extensibility through custom code. 
+These pieces of code are embedded into the application and, in some cases, are not held up to the same level of security vigilance as with other profesionally developed applications.
 
 ## Example Attack Scenarios
 
 ### Scenario #1
 
-Developers across an organization use a vulnerable component from the marketplace. Every app that uses the component is exposed to exploitation. Admins can find it difficult to locate apps affected by the vulnerable component.
+Developers across an organization use a vulnerable component from the marketplace. 
+Every app that uses the component is exposed to exploitation. Admins can find it difficult to locate apps affected by the vulnerable component.
 
 ### Scenario #2
 
-A developer creates a custom connector that allows developers to connect to an internal business API. The custom connector passes the authentication token on the URL, exposing the authentication secrets to app users.
+A developer creates a custom connector that allows developers to connect to an internal business API. 
+The custom connector passes the authentication token on the URL, exposing the authentication secrets to app users.
 
 ## How to Prevent
 
