@@ -17,17 +17,22 @@ Misconfigurations can often result in security risks like anonymous access to se
 
 ## Description
 
-Low-code/no-code development platforms provide a wide range of features, some of which control the balance between security and support of specific use cases. However, misconfigurations can often result in anonymous user access to sensitive data or operations, unprotected public endpoints, secrets, and oversharing. Furthermore, many configurations are set on the application level rather than the tenant level, meaning they can be set by business users themselves, rather than administrators.
+Low-code/no-code development platforms provide a wide range of features, some of which control the balance between security and support of specific use cases. 
+However, misconfigurations can often result in anonymous user access to sensitive data or operations, unprotected public endpoints, secrets, and oversharing. 
+Furthermore, many configurations are set on the application level rather than the tenant level, meaning they can be set by business users themselves, rather than administrators.
 
 ## Example Attack Scenarios
 
 ### Scenario #1
 
-A developer creates an application that exposes an API endpoint and fails to configure that endpoint to deny anonymous access. Attackers scan the low-code/no-code platform’s subdomains, locate the app, and steal its underlying data.
+A developer creates an application that exposes an API endpoint and fails to configure that endpoint to deny anonymous access. 
+Attackers scan the low-code/no-code platform’s subdomains, locate the app, and steal its underlying data.
 
 ### Scenario #2
 
-A developer creates an automation that is triggered by a webhook, but fails to protect that webhook with a secret. Attackers identify the webhook and can now trigger the automation at will. The automation could be used to modify or delete data.
+A developer creates an automation that is triggered by a webhook, but fails to protect that webhook with a secret. 
+Attackers identify the webhook and can now trigger the automation at will. 
+The automation could be used to modify or delete data.
 
 ## How to Prevent
 
