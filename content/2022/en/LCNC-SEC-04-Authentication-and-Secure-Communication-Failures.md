@@ -17,17 +17,22 @@ Low-code/no-code development typically interacts with business-critical data via
 
 ## Description
 
-Low-code/no-code development typically connects to business-critical data across on-premise, Saas, PaaS, and cloud platforms. Applications use built-in connectors, which allow for easy connections to various services. Connections offer a variety of security configurations, including communication protocols, authentication flows, and types of credentials used. In many cases, business users set up connections that often result in deviations from best practices and corporate data security policies.
+Low-code/no-code development typically connects to business-critical data across on-premise, Saas, PaaS, and cloud platforms. 
+Applications use built-in connectors, which allow for easy connections to various services. 
+Connections offer a variety of security configurations, including communication protocols, authentication flows, and types of credentials used. 
+In many cases, business users set up connections that often result in deviations from best practices and corporate data security policies.
 
 ## Example Attack Scenarios
 
 ### Scenario #1
 
-A developer creates an application that uses an FTP connection but doesn’t check the box that turns on encryption. Users of that app have no way to know that their data is being transferred unencrypted since the communication between the app and its users is encrypted.
+A developer creates an application that uses an FTP connection but doesn’t check the box that turns on encryption. 
+Users of that app have no way to know that their data is being transferred unencrypted since the communication between the app and its users is encrypted.
 
 ### Scenario #2
 
-A developer uses administrator credentials to create a database connection. They build an application that uses that connection to show data to its users. Even though they intended to allow read-only operations through the app, users can use the over-privileged connection to write or delete records from the database.
+A developer uses administrator credentials to create a database connection. 
+They build an application that uses that connection to show data to its users. Even though they intended to allow read-only operations through the app, users can use the over-privileged connection to write or delete records from the database.
 
 ## How to Prevent
 
