@@ -13,32 +13,32 @@ title: "LCNC-SEC-04: Authentication and Secure Communication Failures"
 
 ## The Gist
 
-No-code/low-code applications typically connect to business-critical data via connections set up by business users, which can often result in insecure communication.
+Low-code/no-code development typically interacts with business-critical data via connections set up by business users, which can often result in insecure communications.
 
 ## Description
 
-No-code/low-code applications typically connect to business-critical data across on-premise, Saas, PaaS, and cloud platforms.
-Applications use built-in connectors, which allow easy connections to various services. Connections offer a variety of security configurations, including communication protocols, authentication flows, and types of credentials used. In many cases, business users set up connections, which can often result in deviation from best practices and corporate data security policies.
-
+Low-code/no-code development typically connects to business-critical data across on-premise, Saas, PaaS, and cloud platforms. 
+Applications use built-in connectors, which allow for easy connections to various services. 
+Connections offer a variety of security configurations, including communication protocols, authentication flows, and types of credentials used. 
+In many cases, business users set up connections that often result in deviations from best practices and corporate data security policies.
 
 ## Example Attack Scenarios
 
 ### Scenario #1
 
-A developer creates an app that uses an FTP connection and doesn't check the box that turns on encryption.
-Users of the app have no way to know that their data is being transferred unencrypted since the communication between the app and its users is encrypted.
+A developer creates an application that uses an FTP connection but doesn’t check the box that turns on encryption. 
+Users of that app have no way to know that their data is being transferred unencrypted since the communication between the app and its users is encrypted.
 
 ### Scenario #2
 
-A developer uses admin credentials to create a database connection.
-They build an application that uses that connection to show data to its users.
-Even though they intended to allow read-only operations through the app, users can use the over-privileged connection to write or delete records from the database.
+A developer uses administrator credentials to create a database connection. 
+They build an application that uses that connection to show data to its users. Even though they intended to allow read-only operations through the app, users can use the over-privileged connection to write or delete records from the database.
 
 ## How to Prevent
 
-- In production environments, limit the creation of connections to dedicated personnel.
-- Monitor platforms for connections that do not comply with best practices.
-- Educate business users on the risks of insecure communication and the need to involve security teams when setting them up.
+- In production environments, limit the creation of connections to dedicated personnel
+- Monitor platforms for connections that do not comply with best practices
+- Educate business users on the risks of insecure communication and the need to involve security teams when setting them up
 
 ## References
 
