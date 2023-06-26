@@ -17,21 +17,30 @@ Low-code/no-code development often stores data or secrets as part of their “co
 
 ## Description
 
-Data stored in databases managed by low-code/no-code vendors often include sensitive data, including PII and financial data. Low-code/no-code builders can decide for themselves how to store data, and administrators often lack visibility into such managed databases. In many cases, sensitive data is stored unencrypted and moved between geo-locations without considering regulatory requirements.
+Data stored in databases managed by low-code/no-code vendors often include sensitive data, including PII and financial data. 
+Low-code/no-code builders can decide for themselves how to store data, and administrators often lack visibility into such managed databases. 
+In many cases, sensitive data is stored unencrypted and moved between geo-locations without considering regulatory requirements.
 
-Furthermore, buildershave many opportunities to hard-code secrets into their “code”. Whether it’s through environment variables, configuration, or code, applications can often rely on hard-coded secrets to access other services. Hard-coded secrets are available to all users with write permissions to the applications and might also leak to application readers or anonymous users via client-side code.
+Furthermore, buildershave many opportunities to hard-code secrets into their “code”. 
+Whether it’s through environment variables, configuration, or code, applications can often rely on hard-coded secrets to access other services. 
+Hard-coded secrets are available to all users with write permissions to the applications and might also leak to application readers or anonymous users via client-side code.
 
-Moreover, many native log streams mix application logs, metrics, and sensitive data being passed through the application. In many platforms, logs will contain actual data points that the application uses by default.
+Moreover, many native log streams mix application logs, metrics, and sensitive data being passed through the application. 
+In many platforms, logs will contain actual data points that the application uses by default.
 
 ## Example Attack Scenarios
 
 ### Scenario #1
 
-A developer creates a business application that asks users to fill out a form with sensitive data. They use the managed database provided by the platform to store results. Since the managed database is stored with every other developer by default, they all gain access to the sensitive data.
+A developer creates a business application that asks users to fill out a form with sensitive data. 
+They use the managed database provided by the platform to store results. 
+Since the managed database is stored with every other developer by default, they all gain access to the sensitive data.
 
 ### Scenario #2
 
-A developer creates an application using a custom API and hard-codes the API key in the code. Other developers can access the API key directly. Moreover, the API key might leak to the app’s client code allowing users to gain direct access to the key.
+A developer creates an application using a custom API and hard-codes the API key in the code. 
+Other developers can access the API key directly. 
+Moreover, the API key might leak to the app’s client code allowing users to gain direct access to the key.
 
 ## How to Prevent
 
