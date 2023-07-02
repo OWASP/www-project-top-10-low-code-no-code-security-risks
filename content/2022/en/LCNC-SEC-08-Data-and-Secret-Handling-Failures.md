@@ -17,7 +17,7 @@ No-code/low-code applications often store data or secrets as part of their "code
 
 ## Business User Description
 
-All applications store or use data, and some of that data is more sensitive than others. If a developer is unaware of what data is considered “sensitive data”, or the processes to protect that data, the sensitive information could be exposed.   
+Most applications store or use data, and some of that data is more sensitive than others. If a developer is unaware of what data is considered “sensitive data”, or the processes to protect that data, the sensitive information could be exposed.   
 
 This can include data such as username/password, credentials to access other systems, personal identifiable information (PII) and more based upon the specific business. 
 
