@@ -11,6 +11,10 @@ title: "LCNC-SEC-08: Data and Secret Handling Failures"
 | --- | --- | --- | --- |
 | 3 | 2 | 3 | 3 |
 
+All applications store or use data, and some of that data is more sensitive than others. If a developer is unaware of what data is considered “sensitive data”, or the processes to protect that data, the sensitive information could be exposed.   
+
+This can include data such as username/password, credentials to access other systems, personal identifiable information (PII) and more based upon the specific business. 
+
 ## The Gist
 
 No-code/low-code applications often store data or secrets as part of their "code" or on managed databases offered by the platform, which must be stored adequately in compliance with regulation and security requirements.
@@ -42,6 +46,16 @@ Since the managed database is stored with every other developer by default, they
 A developer creates an application using a custom API and hard-codes the API key in the code.
 Other developers can access the API key directly.
 Moreover, the API key might leak to the app's client code allowing users to gain direct access to the key.
+
+## Example Attack & Misuse Scenarios - Business Users
+
+### Scenario #1
+
+An application is developed, which stores credentials in a database. The database stores passwords in a human readable format, allowing anybody to view them. An employee with access to this database can view the password of every employee within the company, including highly privileged administrative accounts.
+
+### Scenario #2
+
+A new application is built that stores personal data about EU residents.  The developer is unaware of the GDPR rules that allow a user to have their personal data deleted upon request, so never builds a process to support that need. Rather the requests are processed manually and inconsistently, leading to fines, and later a ban from doing business in the EU. 
 
 ## How to Prevent
 

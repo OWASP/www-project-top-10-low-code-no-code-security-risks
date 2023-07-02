@@ -11,6 +11,8 @@ title: "LCNC-SEC-03: Data Leakage and Unexpected Consequences"
 | --- | --- | --- | --- |
 | 3 | 2 | 3 | 3 |
 
+Data leakage occurs when data ends up in locations not intended and often not appropriate, which can lead to unexpected consequences.
+
 ## The Gist
 
 Low-code/no-code development legitimately accesses data from underlying services but can also serve as a conduit to those backend systems for actions that were not anticipated or approved of. 
@@ -43,6 +45,16 @@ Since data is copied to a separate mailbox rather than emails being forwarded fr
 A developer builds an automation that syncs changes between two SharePoint sites, so every new file on site A is copied to site B. 
 A business user accidentally writes a sensitive document to site A, not knowing that it is replicated to site B. 
 Even if the business user deletes the document from site A, the document is still available on site B.
+
+## Example Attack & Misuse Scenarios - Business Users
+
+### Scenario #1
+
+A developer builds a process to copy emails with specific words to their personal email account. The content and its attachments, are all now outside of corporate control creating a risk of that data being compromised or being used inappropriately.
+
+### Scenario #2
+
+A user writes a process to automatically store data from a SharePoint site to a network drive. After loading a file to SharePoint, a user realizes the content is sensitive and deletes it from the SharePoint. They don't realize the file has been copied to the network drive, and as a result, that sensitive data remains available.
 
 ## How to Prevent
 

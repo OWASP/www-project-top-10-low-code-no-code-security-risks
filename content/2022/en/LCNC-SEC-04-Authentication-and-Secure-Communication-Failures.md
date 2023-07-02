@@ -11,6 +11,8 @@ title: "LCNC-SEC-04: Authentication and Secure Communication Failures"
 | --- | --- | --- | --- |
 | 2 | 3 | 2 | 2 |
 
+Many applications need to access data and/or move data to fulfill their design.  When the connection to access or move the data is created, “improper” settings can lead to the data being intercepted, blocked, or users having over-privileged access to data, services and more.
+
 ## The Gist
 
 Low-code/no-code development typically interacts with business-critical data via connections set up by business users, which can often result in insecure communications.
@@ -33,6 +35,15 @@ Users of that app have no way to know that their data is being transferred unenc
 
 A developer uses administrator credentials to create a database connection. 
 They build an application that uses that connection to show data to its users. Even though they intended to allow read-only operations through the app, users can use the over-privileged connection to write or delete records from the database.
+
+## Example Attack & Misuse Scenarios - Business Users
+
+### Scenario #1
+
+An application is created to accept payments from users through a website, which sends credit card details to a credit card processor for processing. When sending the data to the credit card processor, the data is not encrypted.  
+
+A malicious user is intercepting the web traffic, and since the data is not encrypted, they can read all of the data, including the credit card information.
+
 
 ## How to Prevent
 
