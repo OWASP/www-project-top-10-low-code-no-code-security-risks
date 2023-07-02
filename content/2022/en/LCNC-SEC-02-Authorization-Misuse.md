@@ -11,14 +11,16 @@ title: "LCNC-SEC-02: Authorization Misuse"
 | --- | --- | --- | --- |
 | 3 | 3 | 3 | 3 |
 
-When writing an application, it's critical to define what users can access the system (Authentication) and what they can do when using that application (Authorization).  Authorization misuse occurs when the application incorrectly defines what a user can do in the system. 
-
 ## The Gist
 
 Connections are first-class objects in most low-code/no-code platforms. 
 This means connections are made between applications, other users, and/or entire organizations and that if an application is deleted, the connection still remains ‘on’. 
 Applications can also be shared with users who should not have access to the underlying data. 
 In addition, the application may have a broader authorization scope than the use case demands.
+
+## Business User Description
+
+When writing an application, it's critical to define what users can access the system (Authentication) and what they can do when using that application (Authorization).  Authorization misuse occurs when the application incorrectly defines what a user can do in the system. 
 
 ## Description
 

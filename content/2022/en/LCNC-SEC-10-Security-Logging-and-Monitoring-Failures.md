@@ -11,11 +11,13 @@ title: "LCNC-SEC-10: Security Logging and Monitoring Failures"
 | --- | --- | --- | --- |
 | 2 | 2 | 3 | 2 |
 
-When an application runs, it's critical to know what ran and the actions it took (also known as an audit trail). This is often done using logging of specific actions. This risk occurs when running these systems log too much or too little information.  
-
 ## The Gist
 
 Low-code/no-code applications often lack a comprehensive audit trail, produce insufficient or non-existent logs, or overshare access to sensitive logs.
+
+## Business User Description
+
+When an application runs, it's critical to know what ran and the actions it took (also known as an audit trail). This is often done using logging of specific actions. This risk occurs when running these systems log too much or too little information.  
 
 ## Description
 

@@ -11,12 +11,14 @@ title: "LCNC-SEC-03: Data Leakage and Unexpected Consequences"
 | --- | --- | --- | --- |
 | 3 | 2 | 3 | 3 |
 
-Data leakage occurs when data ends up in locations not intended and often not appropriate, which can lead to unexpected consequences.
-
 ## The Gist
 
 Low-code/no-code development legitimately accesses data from underlying services but can also serve as a conduit to those backend systems for actions that were not anticipated or approved of. 
 This includes unintended negative side effects such as data leakage beyond the application/security boundary, triggering create/read/update/delete operations on the data, and accidental/malicious data exfiltration.
+
+## Business User Description
+
+Data leakage occurs when data ends up in locations not intended and often not appropriate, which can lead to unexpected consequences.
 
 ## Description
 

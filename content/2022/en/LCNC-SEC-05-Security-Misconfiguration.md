@@ -11,11 +11,13 @@ title: "LCNC-SEC-05: Security Misconfiguration"
 | --- | --- | --- | --- |
 | 3 | 2 | 3 | 3 |
 
-In building a solution, many choices have to be made that can impact security. This risk is a bit of a “catch-all” where a user makes choices to settings that create risk. They can range from how/where sensitive data is stored, encryption settings, and more. 
-
 ## The Gist
 
 Misconfigurations can often result in security risks like anonymous access to sensitive data or operations, unprotected public endpoints and secrets, and oversharing.
+
+## Business User Description
+
+In building a solution, many choices have to be made that can impact security. This risk is a bit of a “catch-all” where a user makes choices to settings that create risk. They can range from how/where sensitive data is stored, encryption settings, and more. 
 
 ## Description
 

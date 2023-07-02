@@ -11,12 +11,15 @@ title: "LCNC-SEC-01: Account Impersonation"
 | --- | --- | --- | --- |
 | 3 | 2 | 3 | 3 |
 
-A critical component of any system is tracking what user is taking actions in that system.  When account impersonation occurs it “looks” like actions taken by one user are being done by another. 
 
 ## The Gist
 
 Low-code/no-code applications can be embedded with a developer account which is used implicitly by any application user. 
 This creates a direct path towards Privilege Escalation, allowing an attacker to hide behind another user’s identity, circumventing traditional security controls.
+
+## Business User Description
+
+A critical component of any system is tracking what user is taking actions in that system.  When account impersonation occurs it “looks” like actions taken by one user are being done by another. 
 
 ## Description
 

@@ -11,13 +11,15 @@ title: "LCNC-SEC-09: Asset Management Failures"
 | --- | --- | --- | --- |
 | 3 | 2 | 3 | 2 |
 
-Keeping a clear inventory of applications in an organization is critical to maintaining a healthy ecosystem. Since LCNC applications can be developed rapidly and with ease, keeping track of what applications exist, how to maintain them, and who “owns” them becomes challenging.  
-
 ## The Gist
 
 The purpose of low-code/no-code development is that it makes it easy for anyone to create applications withrelatively low maintenance costs. 
 This also unfortunately makesthem prone to abandonment while the apps still remain active. 
 Furthermore, internal applications can gain popularity rapidly without addressing business continuity concerns as they scale in usage.
+
+## Business User Description
+
+Keeping a clear inventory of applications in an organization is critical to maintaining a healthy ecosystem. Since LCNC applications can be developed rapidly and with ease, keeping track of what applications exist, how to maintain them, and who “owns” them becomes challenging.  
 
 ## Description
 

@@ -9,14 +9,16 @@ title: "LCNC-SEC-07: Vulnerable and Untrusted Components"
 
 | Prevalence | Detectability | Exploitability | Technical Impact |
 | --- | --- | --- | --- |
-| 2 | 2 | 2 | 2 |
-
-To accelerate building a solution, many LCNC platforms have the equivalent of an “app store” where a developer can use pre-made parts of a solution created by third parties. These pre-made components can come with any of the risks below, as well as being created with malicious intent. 
+| 2 | 2 | 2 | 2 | 
 
 ## The Gist
 
 Low-code/no-code development relies heavily on ready-made components out of marketplaces, the web, or custom connectors built by developers. 
 These components are often unmanaged, lack visibility, and expose organizations to supply chain-based risks.
+
+## Business User Description
+
+To accelerate building a solution, many LCNC platforms have the equivalent of an “app store” where a developer can use pre-made parts of a solution created by third parties. These pre-made components can come with any of the risks below, as well as being created with malicious intent.
 
 ## Description
 

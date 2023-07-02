@@ -11,11 +11,13 @@ title: "LCNC-SEC-04: Authentication and Secure Communication Failures"
 | --- | --- | --- | --- |
 | 2 | 3 | 2 | 2 |
 
-Many applications need to access data and/or move data to fulfill their design.  When the connection to access or move the data is created, “improper” settings can lead to the data being intercepted, blocked, or users having over-privileged access to data, services and more.
-
 ## The Gist
 
 Low-code/no-code development typically interacts with business-critical data via connections set up by business users, which can often result in insecure communications.
+
+## Business User Description
+
+Many applications need to access data and/or move data to fulfill their design.  When the connection to access or move the data is created, “improper” settings can lead to the data being intercepted, blocked, or users having over-privileged access to data, services and more.
 
 ## Description
 

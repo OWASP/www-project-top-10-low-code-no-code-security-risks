@@ -11,11 +11,13 @@ title: "LCNC-SEC-06: Injection Handling Failures"
 | --- | --- | --- | --- |
 | 2 | 2 | 2 | 2 |
 
-When user’s input data into a system, that data can be interpreted as “code to run” rather than “data to be stored or processed”.  
-
 ## The Gist
 
 No-code/low-code applications ingest user-provided data in multiple ways, including direct input or retrieving user-provided content from various services. Such data can contain malicious payloads that may introduce risk to the application.
+
+## Business User Description
+
+When user’s input data into a system, that data can be interpreted as “code to run” rather than “data to be stored or processed”.  
 
 ## Description
 
