@@ -57,7 +57,7 @@ An application is developed, which stores credentials in a database. The databas
 
 ### Scenario #2
 
-A new application is built that stores personal data about EU residents.  The developer is unaware of the GDPR rules that allow a user to have their personal data deleted upon request, so never builds a process to support that need. Rather the requests are processed manually and inconsistently, leading to fines, and later a ban from doing business in the EU. 
+A new application is built that stores personal data about EU residents. The developer is unaware of the GDPR rules that allows a user to have their personal data deleted upon request.  Rather than building a process to delete data upon request, the business now has to process these requests manually, resulting in inconsistent adherence to the GDPR rules.  That inconsistent behavior can lead to fines, audit findings and other potential penalties.
 
 ## How to Prevent
 
