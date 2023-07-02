@@ -17,7 +17,7 @@ Low-code/no-code applications often lack a comprehensive audit trail, produce in
 
 ## Business User Description
 
-When an application runs, it's critical to know what ran and the actions it took (also known as an audit trail). This is often done using logging of specific actions. This risk occurs when running these systems log too much or too little information.  
+When an application runs, it’s critical to know what ran and the actions it or a user took (also known as an audit trail). This is often done using logging of specific actions. In case of a breach or malicious activity, the audit log is key to understanding what happened and how to recover. This risk occurs when running systems log too much or too little information, which needs to be balanced with cost and quality of information.
 
 ## Description
 
