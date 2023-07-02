@@ -48,7 +48,7 @@ A user builds an online feedback form for an ecommerce store. A malicious user f
 
 ### Scenario #2
 
-A user builds a registration form for new users. A malicious user uses their knowledge of database commands to delete all users from the database. Users with pending orders try to check on the status of their orders, to be told their account doesn't exist. 
+A user builds a registration form for new users. A malicious user uses their knowledge of database commands to craft a specific input into the user field, which deletes all users from the database. Users with pending orders try to check on the status of their orders, to be told their account doesn’t exist.
 
 ## How to Prevent
 
