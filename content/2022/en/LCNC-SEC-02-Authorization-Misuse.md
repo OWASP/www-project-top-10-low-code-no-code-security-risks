@@ -20,7 +20,7 @@ In addition, the application may have a broader authorization scope than the use
 
 ## Business User Description
 
-When writing an application, it's critical to define what users can access the system (Authentication) and what they can do when using that application (Authorization).  Authorization misuse occurs when the application incorrectly defines what a user can do in the system. 
+When writing an application, it’s critical to verify the identity of a user (Authentication), and define the level of access privileges a user has when using that application (Authorization). Authorization misuse occurs when the application incorrectly defines what a user can do in a system.
 
 ## Description
 
