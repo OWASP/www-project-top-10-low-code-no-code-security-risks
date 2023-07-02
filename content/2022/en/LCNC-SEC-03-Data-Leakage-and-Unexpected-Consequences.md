@@ -18,7 +18,7 @@ This includes unintended negative side effects such as data leakage beyond the a
 
 ## Business User Description
 
-Data leakage occurs when data ends up in locations not intended and often not appropriate, which can lead to unexpected consequences.
+Data leakage occurs when data moves outside of the organization’s control, and ends up in locations not intended or appropriate, which can lead to unexpected consequences.
 
 ## Description
 
