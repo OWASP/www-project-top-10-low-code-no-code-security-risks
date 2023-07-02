@@ -17,7 +17,7 @@ Misconfigurations can often result in security risks like anonymous access to se
 
 ## Business User Description
 
-In building a solution, many choices have to be made that can impact security. This risk is a bit of a “catch-all” where a user makes choices to settings that create risk. They can range from how/where sensitive data is stored, encryption settings, and more. 
+In building a solution, platforms provide a variety of features, each having an impact on security. They can range from how/where sensitive data is stored, encryption settings, and more. Users need to consider productivity vs risk when making the right choices to combine these features.
 
 ## Description
 
