@@ -33,7 +33,7 @@ An attacker controlling the feed uses this flow to inject commands into the data
 
 A developer creates an application that allows users to fill out forms. 
 The app encodes form data as CSV files and stores them on a shared drive. 
-When sanitizing inputs, security teams need to think about and label all the different things that are inputting data into, which is likely to result in something being missed, like an Office macro attack. 
+Even though the platform sanitizes form inputs for SQL injection attacks, security teams need to think about and label all the different things that are inputting data into, which is likely to result in something being missed, like an Office macro attack. 
 An attacker takes advantage of this and inputs a macro that gets written into the CSV file. 
 A user opens the CSV file to analyze user forms, and the macro gets executed.
 
