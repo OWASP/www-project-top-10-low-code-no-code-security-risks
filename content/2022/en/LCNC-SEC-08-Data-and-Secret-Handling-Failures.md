@@ -21,7 +21,7 @@ Data stored in databases managed by low-code/no-code vendors often include sensi
 Low-code/no-code builders can decide for themselves how to store data, and administrators often lack visibility into such managed databases. 
 In many cases, sensitive data is stored unencrypted and moved between geo-locations without considering regulatory requirements.
 
-Furthermore, buildershave many opportunities to hard-code secrets into their “code”. 
+Furthermore, builders have many opportunities to hard-code secrets into their “code”. 
 Whether it’s through environment variables, configuration, or code, applications can often rely on hard-coded secrets to access other services. 
 Hard-coded secrets are available to all users with write permissions to the applications and might also leak to application readers or anonymous users via client-side code.
 
