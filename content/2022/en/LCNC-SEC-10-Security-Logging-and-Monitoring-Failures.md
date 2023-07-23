@@ -15,6 +15,10 @@ title: "LCNC-SEC-10: Security Logging and Monitoring Failures"
 
 Low-code/no-code applications often lack a comprehensive audit trail, produce insufficient or non-existent logs, or overshare access to sensitive logs.
 
+## Business User Description
+
+When an application runs, it’s critical to know what ran and the actions it or a user took (also known as an audit trail). This is often done using logging of specific actions. In case of a breach or malicious activity, the audit log is key to understanding what happened and how to recover. This risk occurs when running systems log too much or too little information, which needs to be balanced with cost and quality of information.
+
 ## Description
 
 Low-code/no-code applications often rely on vendors to generate logs and monitoring data.
@@ -37,6 +41,18 @@ Since multiple changes have occurred, each resulting in an application update, i
 Developers have to review each application version manually to locate the problematic version.
 Since each application "save" translates to an update, the number of updates would make a manual process prohibitively expensive and time-consuming.
 On some platforms, developers can only review the application's current version, so they won't be able to find or revert to a stable version.
+
+## Example Attack & Misuse Scenarios - Business Users
+
+### Scenario #1
+
+A developer builds an automated process to load data into a financial system to complete order processing. The process handles around one thousand transactions per week with a 97% success rate. The 3% that fail are processed manually off of a daily Failed Transaction email.  
+
+The Failed Transaction email fails to get sent for a few days before its absence is noticed. Due to poor logging there is no easy way to find the failed records. Instead 100% of all transactions have to be investigated to find the failures, resulting in a significantly larger task. 
+
+### Scenario #2
+
+An application to process credit card payments at a conference is created.   As part of its creation, a detailed log file is created to track the transactions and stored on a shared network drive. The logging includes records of the credit card details. A user browsing the network drive discovers this file and is able to obtain all of the credit card data. 
 
 ## How to Prevent
 

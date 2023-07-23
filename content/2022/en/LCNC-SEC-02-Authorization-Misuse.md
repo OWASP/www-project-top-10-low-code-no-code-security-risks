@@ -18,6 +18,10 @@ This means connections are made between applications, other users, and/or entire
 Applications can also be shared with users who should not have access to the underlying data. 
 In addition, the application may have a broader authorization scope than the use case demands.
 
+## Business User Description
+
+When writing an application, it’s critical to verify the identity of a user (Authentication), and define the level of access privileges a user has when using that application (Authorization). Authorization misuse occurs when the application incorrectly defines what a user can do in a system.
+
 ## Description
 
 Low-code/no-code development does not happen in siloes. 
@@ -62,6 +66,27 @@ Any internal user can abuse this connection to access restricted repositories th
 
 A developer creates a simple application to submit forms from one platform to another. 
 The application, however, is configured to require authorization to edit and delete form submissions when just creating form submissions should have been enough.
+
+## Example Attack & Misuse Scenarios - Business Users
+
+### Scenario #1
+
+A developer is asked to automate the entry of expense items into a finance system, which automates the process of entry and approval. Finance processes should have privilege separation between the user entering the transaction and the user approving the actions. Because this automation was built with incorrect Authorization, any user running this process can perform both tasks.
+
+### Scenario #2
+
+In an insurance company, a developer is asked to build an application to simplify the intake process of a new Consumer Auto insurance policy.  The application is a big success, and users in the Commercial Auto line start using the application.   
+
+The Commercial Auto process has additional validations that were not planned for in the build of this application, causing major pricing errors later in the process. 
+
+The developer did not anticipate other departmental usage, and therefore never designed the application with appropriate Authorization settings. 
+
+### Scenario #3
+
+A Business Intelligence (BI) report is created to analyze the experience and salaries of employees across departments. This report is intended only for senior management but it has been set with a wide authorization scope, allowing anybody in any department to view detailed information about employees.
+
+A senior manager shares it with their team, who now can see all salaries across the company, including their salary compared to each other.
+
 
 ## How to Prevent
 
