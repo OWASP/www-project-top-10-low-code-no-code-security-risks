@@ -18,6 +18,7 @@ Individuals that provided a significant contribution to the project:
 | Don Willits | Microsoft | [LinkedIn](https://www.linkedin.com/in/don-willits-9081835/) |
 | John McTiernan | DT Group | [LinkedIn](https://www.linkedin.com/in/john-mctiernan/) |
 | Yianna Paris | Xebia | [LinkedIn](https://www.linkedin.com/in/salted-hash/) |
+
 ## Sponsors
 
 The OWASP Top 10 Low-Code/No-Code Security Risks project is supported by [Zenity](https://www.zenity.io/)
