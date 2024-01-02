@@ -13,7 +13,7 @@ title: "LCNC-SEC-09: Asset Management Failures"
 
 ## The Gist
 
-The purpose of low-code/no-code development is that it makes it easy for anyone to create applications withrelatively low maintenance costs. 
+The purpose of low-code/no-code development is that it makes it easy for anyone to create applications with relatively low maintenance costs. 
 This also unfortunately makesthem prone to abandonment while the apps still remain active. 
 Furthermore, internal applications can gain popularity rapidly without addressing business continuity concerns as they scale in usage.
 
