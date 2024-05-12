@@ -26,7 +26,7 @@ Individuals and organizations that provide a significant contribution to the pro
 ## How to reach out:
 
 - Give us feedback / suggestions / report bugs on [GitHub](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks)
-- Follow us on [Twitter](https://twitter.com/owasplcnc)
+- Follow us on [Twitter](https://twitter.com/OWASPNoCode)
 - Join our [email group](https://groups.google.com/g/owasp-no-code-low-code)
 - Contact the [project leads](mailto:michael.bargury@owasp.org)
 - Talk to us on [Slack](https://owasp.slack.com/archives/C02C6RU6G10) (#low-code-no-code-top10-security-risks)

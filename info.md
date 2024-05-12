@@ -34,7 +34,7 @@
 
 ### Social and Community
 
-[Twitter](https://twitter.com/owasplcnc)
+[Twitter](https://twitter.com/OWASPNoCode)
 
 [Slack](https://owasp.slack.com/archives/C02C6RU6G10)
 
