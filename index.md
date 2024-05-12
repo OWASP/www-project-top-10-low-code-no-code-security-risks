@@ -8,6 +8,7 @@ type: documentation
 pitch: The primary goal of the "OWASP Top 10 Low-Code/No-Code Security Risks" document is to provide assistance and education for organizations looking to adopt and develop Low-Code/No-Code applications. The guide provides information about what are the most prominent security risks for such applications, the challenges involved, and how to overcome them.
 
 ---
+<a href="https://owasp.org/www-project-top-10-low-code-no-code-security-risks/"><img src="assets/images/owasp-lcnc-top10-logo.png" alt="OWASP Low-Code/No-Code Top 10" width="500" height="250" /></a>
 
 [![stars](https://img.shields.io/github/stars/OWASP/www-project-top-10-low-code-no-code-security-risks?icon=github&style=social)](https://github.com/OWASP/www-project-top-10-low-code-no-code-security-risks)
 [![slack](https://img.shields.io/badge/slack-nocode-purple?logo=slack)](https://owasp.slack.com/archives/C02C6RU6G10)
