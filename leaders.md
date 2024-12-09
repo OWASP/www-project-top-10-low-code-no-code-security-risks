@@ -1,4 +1,4 @@
 ### Leaders
 * [Michael Bargury](mailto:michael.bargury@owasp.org)
-* [Kayla Underkoffler](mailto:underkoffler.kayla@gmail.com)
+* [Kayla Underkoffler](mailto:kayla.underkoffler@owasp.org)
 * Ory Segal
